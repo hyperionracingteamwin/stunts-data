@@ -6,5 +6,100 @@
     "archive": "packs/back-to-the-future/Back_to_the_Future_Pack.zip",
     "cover": "packs/back-to-the-future/cover.png",
     "version": "1.0.3"
+  },
+  "replays": {
+    "competition": "ZakStunts",
+    "season": 2026,
+    "month": "September 2026",
+    "track": "ZCT303",
+    "title": "Fast & Furious",
+    "author": "Alan Rotoi",
+    "start": "2026-09-21",
+    "end": "2026-10-17",
+    "source": "https://zak.stunts.hu/tracks/ZCT303",
+    "source_archive": "https://zak.stunts.hu/tracks/ZCT303.zip",
+    "retrieved_at": "2026-10-25",
+    "time_note": "Times use the final ZakStunts car coefficients. Driven is the time recorded in the replay.",
+    "pilots": [
+      {
+        "name": "Alain il Professore",
+        "source_name": "Alain",
+        "runs": [
+          {
+            "mode": "FREE",
+            "rank": 4,
+            "time": "1:46.13",
+            "driven": "1:50.55",
+            "car": "Melange XGT-88",
+            "submitted": "17 Oct",
+            "path": "rpl/ZakStunts/2026/ZCT303/FREE/04-ALA.RPL",
+            "source": "https://zak.stunts.hu/replays/0dfddd41d719fbdd18137b7a18aad00fe52432a1",
+            "source_filename": "303ALA.RPL",
+            "sha256": "ef51319f2991d8ec63c93aeacdc805105ef1c6b3d244606f16687aabc659835f"
+          }
+        ],
+        "gar_note": "No final GAR result on the official scoreboard."
+      },
+      {
+        "name": "Zapper",
+        "source_name": "Zapper",
+        "runs": [
+          {
+            "mode": "FREE",
+            "rank": 8,
+            "time": "1:56.30",
+            "driven": "2:01.15",
+            "car": "Melange XGT-88",
+            "submitted": "22 Sep",
+            "path": "rpl/ZakStunts/2026/ZCT303/FREE/08-ZAP.RPL",
+            "source": "https://zak.stunts.hu/replays/0f3aad2579010651dd026f3024f98639b8a0e3a5",
+            "source_filename": "303ZAP.RPL",
+            "sha256": "00d3b941b0d30775686ff802057a66a48997327153fc9ec4c0e1cf5f67ba8df4"
+          },
+          {
+            "mode": "GAR",
+            "rank": 3,
+            "time": "2:46.29",
+            "driven": "3:38.80",
+            "car": "Porsche Carrera 4",
+            "submitted": "21 Sep",
+            "path": "rpl/ZakStunts/2026/ZCT303/GAR/ZAP-GAR.RPL",
+            "source": "https://zak.stunts.hu/replays/e716e7cfc20b0fe9c274aea0213873650053dea7",
+            "source_filename": "303ZAP.RPL",
+            "sha256": "bab14660311ba7d733c9e0d56687996c0e64467be541a8d69f27ed4cd98d7fc9"
+          }
+        ]
+      },
+      {
+        "name": "Victor Narl",
+        "source_name": "Victor Narl",
+        "runs": [
+          {
+            "mode": "FREE",
+            "rank": 3,
+            "time": "1:45.94",
+            "driven": "1:50.35",
+            "car": "Melange XGT-88",
+            "submitted": "8 Oct",
+            "path": "rpl/ZakStunts/2026/ZCT303/FREE/03-NRL.RPL",
+            "source": "https://zak.stunts.hu/replays/b4d2910c1d96c144f11ed7de9a45c977acc61f28",
+            "source_filename": "303NRL.RPL",
+            "sha256": "5f80a3caed6a545e306e5126f210b63bdab73e4cdf38132285c822fe0edd3a8a"
+          },
+          {
+            "mode": "GAR",
+            "rank": 1,
+            "time": "2:16.62",
+            "driven": "3:27.00",
+            "car": "Chevrolet Silverado",
+            "submitted": "9 Oct",
+            "path": "rpl/ZakStunts/2026/ZCT303/GAR/NRL-GAR.RPL",
+            "source": "https://zak.stunts.hu/replays/42e0816d8ca3f9305efece6159fdf0df07795bdc",
+            "source_filename": "303NRL.RPL",
+            "sha256": "4d1066a06f02a7777da8652b78f633e86fe1098f1a4fec1a2a8a3f766fd78f69"
+          }
+        ]
+      }
+    ]
   }
 }
