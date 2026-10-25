@@ -1,7 +1,7 @@
 {
   "featured": {
     "title": "Back to the Future Complete Pack v1.0.3",
-    "description": "Drive the DeLorean BACK through Hill Valley with custom scenery, intro and music. Version 1.0.3 integrates the corrected truck doors, lowered finish and the iconic departure quote from the supplied V7 pack. Includes a Windows installer, safe upgrade and full restoration. Requires your own Stunts 1.1.",
+    "description": "Travel through Hill Valley in the DeLorean BACK. Custom scenery, animated titles, film-inspired music and the iconic departure quote bring Back to the Future into Stunts. Includes the complete Windows installer and uninstaller.",
     "author": "Alain il Professore · Hyperion Racing Team",
     "archive": "packs/back-to-the-future/Back_to_the_Future_Pack.zip",
     "cover": "packs/back-to-the-future/cover.png",
@@ -35,7 +35,8 @@
             "path": "rpl/ZakStunts/2026/ZCT303/FREE/04-ALA.RPL",
             "source": "https://zak.stunts.hu/replays/0dfddd41d719fbdd18137b7a18aad00fe52432a1",
             "source_filename": "303ALA.RPL",
-            "sha256": "ef51319f2991d8ec63c93aeacdc805105ef1c6b3d244606f16687aabc659835f"
+            "sha256": "ef51319f2991d8ec63c93aeacdc805105ef1c6b3d244606f16687aabc659835f",
+            "bytes": 4059
           }
         ],
         "gar_note": "No final GAR result on the official scoreboard."
@@ -54,7 +55,8 @@
             "path": "rpl/ZakStunts/2026/ZCT303/FREE/08-ZAP.RPL",
             "source": "https://zak.stunts.hu/replays/0f3aad2579010651dd026f3024f98639b8a0e3a5",
             "source_filename": "303ZAP.RPL",
-            "sha256": "00d3b941b0d30775686ff802057a66a48997327153fc9ec4c0e1cf5f67ba8df4"
+            "sha256": "00d3b941b0d30775686ff802057a66a48997327153fc9ec4c0e1cf5f67ba8df4",
+            "bytes": 4271
           },
           {
             "mode": "GAR",
@@ -66,7 +68,8 @@
             "path": "rpl/ZakStunts/2026/ZCT303/GAR/ZAP-GAR.RPL",
             "source": "https://zak.stunts.hu/replays/e716e7cfc20b0fe9c274aea0213873650053dea7",
             "source_filename": "303ZAP.RPL",
-            "sha256": "bab14660311ba7d733c9e0d56687996c0e64467be541a8d69f27ed4cd98d7fc9"
+            "sha256": "bab14660311ba7d733c9e0d56687996c0e64467be541a8d69f27ed4cd98d7fc9",
+            "bytes": 6224
           }
         ]
       },
@@ -84,7 +87,8 @@
             "path": "rpl/ZakStunts/2026/ZCT303/FREE/03-NRL.RPL",
             "source": "https://zak.stunts.hu/replays/b4d2910c1d96c144f11ed7de9a45c977acc61f28",
             "source_filename": "303NRL.RPL",
-            "sha256": "5f80a3caed6a545e306e5126f210b63bdab73e4cdf38132285c822fe0edd3a8a"
+            "sha256": "5f80a3caed6a545e306e5126f210b63bdab73e4cdf38132285c822fe0edd3a8a",
+            "bytes": 4055
           },
           {
             "mode": "GAR",
@@ -96,10 +100,70 @@
             "path": "rpl/ZakStunts/2026/ZCT303/GAR/NRL-GAR.RPL",
             "source": "https://zak.stunts.hu/replays/42e0816d8ca3f9305efece6159fdf0df07795bdc",
             "source_filename": "303NRL.RPL",
-            "sha256": "4d1066a06f02a7777da8652b78f633e86fe1098f1a4fec1a2a8a3f766fd78f69"
+            "sha256": "4d1066a06f02a7777da8652b78f633e86fe1098f1a4fec1a2a8a3f766fd78f69",
+            "bytes": 5988
           }
         ]
       }
     ]
-  }
+  },
+  "packs": [
+    {
+      "id": "back-to-the-future",
+      "title": "Back to the Future",
+      "subtitle": "DeLorean BACK · Hill Valley",
+      "car": "DeLorean BACK",
+      "description": "Travel through Hill Valley in the DeLorean BACK. Custom scenery, animated titles, film-inspired music and the iconic departure quote bring Back to the Future into Stunts. Includes the complete Windows installer and uninstaller.",
+      "archive": "packs/back-to-the-future/Back_to_the_Future_Pack.zip",
+      "cover": "packs/back-to-the-future/cover.png",
+      "version": "1.0.3",
+      "platform": "Windows",
+      "tags": [
+        "DeLorean BACK",
+        "Hill Valley track",
+        "Intro & music"
+      ],
+      "install": "Extract BACK_TO_THE_FUTURE_STUNTS into your Stunts folder. Run INSTALLER.bat in Windows. To restore your previous files, run DESINSTALLER.bat.",
+      "bytes": 248178,
+      "sha256": "dcd4dc80909efd7b76ca75e01687907ace8c67db8587cdcb9af69b2dced4427c"
+    },
+    {
+      "id": "guns-n-roses",
+      "title": "Guns N’ Roses",
+      "subtitle": "November Rain Edition",
+      "car": "Corvette ROSE · Sting Ray ’63 inspired",
+      "description": "A rose-pink Corvette inspired by the 1963 Sting Ray, a 3D guitar intro and native November Rain music. Includes the NORAIN2 track, custom dashboard and the complete V4 installer.",
+      "archive": "packs/guns-n-roses/November_Rain_Complete_Pack_V4.zip",
+      "cover": "packs/guns-n-roses/cover.png",
+      "version": "4",
+      "platform": "Windows & DOSBox",
+      "tags": [
+        "Corvette ROSE",
+        "NORAIN2 track",
+        "November Rain music"
+      ],
+      "install": "Extract the entire ZIP directly into your Stunts game folder, keeping PAYLOAD and NRCOPY.COM. Run INSTALLE.bat in Windows, or type INSTALLE in DOSBox. Restore with DESINST in the same environment.",
+      "bytes": 940769,
+      "sha256": "e350d140fe462870c873752ef086396ebc99824e9959eedbe2b0775a83f689c9"
+    },
+    {
+      "id": "renault-5-prost",
+      "title": "Renault 5 Turbo",
+      "subtitle": "1982 · Prost Edition · Johnny and Mary",
+      "car": "Renault 5 Turbo 1982 · Prost Edition",
+      "description": "The 1982 Renault 5 Turbo in its red-and-white Prost edition, with its custom cockpit, VGA title artwork and animated intro. Four native music arrangements bring Johnny and Mary into Stunts.",
+      "archive": "packs/renault-5-prost/Renault_5_Turbo_1982_Prost_Johnny_and_Mary.zip",
+      "cover": "packs/renault-5-prost/cover.png",
+      "version": "",
+      "platform": "Windows",
+      "tags": [
+        "R5 Turbo 1982",
+        "Prost Edition",
+        "Johnny and Mary music"
+      ],
+      "install": "Place the complete RENA_INSTALLATION folder inside your Stunts game folder. Run INSTALLER.BAT in Windows. To restore your previous files, run DESINSTALLER.BAT.",
+      "bytes": 1506580,
+      "sha256": "db9aff82ef9f25a2a3a0f4ccc1786c2c533bed0a5719e6948246a0462a9bc109"
+    }
+  ]
 }
