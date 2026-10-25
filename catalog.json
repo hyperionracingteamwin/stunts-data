@@ -125,7 +125,10 @@
       ],
       "install": "Extract BACK_TO_THE_FUTURE_STUNTS into your Stunts folder. Run INSTALLER.bat in Windows. To restore your previous files, run DESINSTALLER.bat.",
       "bytes": 248178,
-      "sha256": "dcd4dc80909efd7b76ca75e01687907ace8c67db8587cdcb9af69b2dced4427c"
+      "sha256": "dcd4dc80909efd7b76ca75e01687907ace8c67db8587cdcb9af69b2dced4427c",
+      "cover_width": 320,
+      "cover_height": 240,
+      "cover_caption": "VGA ARTWORK · 320 × 240"
     },
     {
       "id": "guns-n-roses",
@@ -144,7 +147,10 @@
       ],
       "install": "Extract the entire ZIP directly into your Stunts game folder, keeping PAYLOAD and NRCOPY.COM. Run INSTALLE.bat in Windows, or type INSTALLE in DOSBox. Restore with DESINST in the same environment.",
       "bytes": 940769,
-      "sha256": "e350d140fe462870c873752ef086396ebc99824e9959eedbe2b0775a83f689c9"
+      "sha256": "e350d140fe462870c873752ef086396ebc99824e9959eedbe2b0775a83f689c9",
+      "cover_width": 320,
+      "cover_height": 240,
+      "cover_caption": "VGA ARTWORK · 320 × 240"
     },
     {
       "id": "renault-5-prost",
@@ -153,7 +159,7 @@
       "car": "Renault 5 Turbo 1982 · Prost Edition",
       "description": "The 1982 Renault 5 Turbo in its red-and-white Prost edition, with its custom cockpit, VGA title artwork and animated intro. Four native music arrangements bring Johnny and Mary into Stunts.",
       "archive": "packs/renault-5-prost/Renault_5_Turbo_1982_Prost_Johnny_and_Mary.zip",
-      "cover": "packs/renault-5-prost/cover.png",
+      "cover": "packs/renault-5-prost/sdtitl.png",
       "version": "",
       "platform": "Windows",
       "tags": [
@@ -163,7 +169,11 @@
       ],
       "install": "Place the complete RENA_INSTALLATION folder inside your Stunts game folder. Run INSTALLER.BAT in Windows. To restore your previous files, run DESINSTALLER.BAT.",
       "bytes": 1506580,
-      "sha256": "db9aff82ef9f25a2a3a0f4ccc1786c2c533bed0a5719e6948246a0462a9bc109"
+      "sha256": "db9aff82ef9f25a2a3a0f4ccc1786c2c533bed0a5719e6948246a0462a9bc109",
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "PACK TITLE SCREEN · 320 × 200",
+      "cover_alt": "Original Renault 5 Turbo title screen from the pack, with Senna and Prost"
     }
   ]
 }
