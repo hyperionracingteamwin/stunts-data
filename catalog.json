@@ -1,10 +1,10 @@
 {
   "featured": {
-    "title": "Back to the Future Complete Pack v1.0.2",
-    "description": "Drive the DeLorean BACK through Hill Valley with custom scenery, a themed intro and music. Includes the v1.0.2 Windows installer with the intro title fix, original-file backup and full restoration. Requires your own Stunts 1.1 installation.",
+    "title": "Back to the Future Complete Pack v1.0.3",
+    "description": "Drive the DeLorean BACK through Hill Valley with custom scenery, intro and music. Version 1.0.3 integrates the corrected truck doors, lowered finish and the iconic departure quote from the supplied V7 pack. Includes a Windows installer, safe upgrade and full restoration. Requires your own Stunts 1.1.",
     "author": "Alain il Professore · Hyperion Racing Team",
     "archive": "packs/back-to-the-future/Back_to_the_Future_Pack.zip",
     "cover": "packs/back-to-the-future/cover.png",
-    "version": "1.0.2"
+    "version": "1.0.3"
   }
 }
