@@ -203,5 +203,91 @@
       "cover_caption": "VGA ARTWORK · 320 × 240 · 256 COLORS",
       "cover_alt": "VGA pixel artwork inspired by the reference photo: blue Plymouth Superbird NASCAR number 43 racing past the grandstands."
     }
+  ],
+  "replay_collections": [
+    {
+      "id": "r4k86",
+      "competition": "Race For Kicks",
+      "season": 2026,
+      "month": "October 2026",
+      "track": "R4K 86",
+      "title": "Only Solutions",
+      "author": "Spoonboy",
+      "car": "Ferrari 456 GT",
+      "start": "2026-10-01",
+      "end": "2026-10-26",
+      "date_label": "1–26 October 2026",
+      "source": "https://www.raceforkicks.com/index.php?page=race&race=2026-10",
+      "retrieved_at": "2026-10-27",
+      "modes": [
+        "RH",
+        "NoRH"
+      ],
+      "time_note": "Final verified OWOOT results. RH and NoRH runs are labelled separately; NoRH is not presented as a separate official ranking. Original RPL files are hosted in the Hyperion GitHub archive.",
+      "pilots": [
+        {
+          "name": "Victor Narl",
+          "source_name": "Victor Narl",
+          "missing_run_notes": {
+            "NoRH": "No final NoRH replay on the official scoreboard."
+          },
+          "runs": [
+            {
+              "mode": "RH",
+              "style": "OWOOT/RH",
+              "time": "2:08.90",
+              "car": "Ferrari 456 GT",
+              "submitted": "14 Oct",
+              "path": "rpl/RaceForKicks/2026/R4K86/RH/01-NRL.RPL",
+              "source": "https://www.raceforkicks.com/races/2026-10/r4k1594.rpl",
+              "source_filename": "r4k1594.rpl",
+              "verified": true,
+              "bytes": 4426,
+              "sha256": "e49aadbed3f731bc4453aacf9ccc17e189e4819d976b6eb139c37cba13fa8e5b",
+              "rank_label": "#1 overall",
+              "rank": 1
+            },
+            {
+              "mode": "NoRH",
+              "style": "OWOOT/NoRH",
+              "time": "2:29.65",
+              "car": "Ferrari 456 GT",
+              "submitted": "10 Oct",
+              "path": "rpl/RaceForKicks/2026/R4K86/NoRH/NRL-NORH.RPL",
+              "source": "https://www.raceforkicks.com/races/2026-10/r4k1590.rpl",
+              "source_filename": "r4k1590.rpl",
+              "verified": true,
+              "bytes": 4841,
+              "sha256": "f9ed5e77922514bb43e1f7eafe22df466c66e51ee362831a9522be937b2d9752",
+              "rank_label": "Verified · NoRH"
+            }
+          ]
+        },
+        {
+          "name": "Alain il Professore",
+          "source_name": "Alain Il Professore",
+          "missing_run_notes": {
+            "NoRH": "No final NoRH replay on the official scoreboard."
+          },
+          "runs": [
+            {
+              "mode": "RH",
+              "style": "OWOOT/RH",
+              "time": "2:12.35",
+              "car": "Ferrari 456 GT",
+              "submitted": "25 Oct",
+              "path": "rpl/RaceForKicks/2026/R4K86/RH/02-ALA.RPL",
+              "source": "https://www.raceforkicks.com/races/2026-10/r4k1605.rpl",
+              "source_filename": "r4k1605.rpl",
+              "verified": true,
+              "bytes": 4495,
+              "sha256": "beaf27f72c2f0c051d86037ef95074d990e22f28459c60a6990aaaadc83df6d2",
+              "rank_label": "#2 overall",
+              "rank": 2
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
