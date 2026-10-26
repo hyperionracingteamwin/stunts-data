@@ -174,6 +174,34 @@
       "cover_height": 200,
       "cover_caption": "PACK TITLE SCREEN · 320 × 200",
       "cover_alt": "Original Renault 5 Turbo title screen from the pack, with Senna and Prost"
+    },
+    {
+      "id": "plymouth-superbird-nascar",
+      "number": "04",
+      "title": "Plymouth Superbird NASCAR",
+      "subtitle": "1970 · NASCAR · BIRD",
+      "car": "Plymouth Superbird NASCAR",
+      "description": "Bring the winged Plymouth Superbird to Stunts. This NASCAR edition includes the BIRD car, a custom cockpit, updated bodywork and paint schemes, plus development sources, technical previews and a documented torque curve.",
+      "archive": "packs/plymouth-superbird-nascar/Plymouth_Superbird_NASCAR_V08.zip",
+      "cover": "packs/plymouth-superbird-nascar/cover.png",
+      "bitmap": "packs/plymouth-superbird-nascar/cover.bmp",
+      "version": "08",
+      "platform": "Stunts 1.1 VGA",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "credits": "Original 3D base by Alan Rotoi; NASCAR edition and custom cockpit by Alain il Professore.",
+      "tags": [
+        "Plymouth Superbird",
+        "NASCAR",
+        "Custom cockpit",
+        "Development sources"
+      ],
+      "install": "Extract the ZIP, then copy CARBIRD.RES, STBIRD.3SH, STDABIRD.VSH and STDBBIRD.VSH into your Stunts 1.1 VGA game folder. Back up previous BIRD files and move any competing STBIRD.P3S, STDABIRD.PVS and STDBBIRD.PVS out of the game folder. Read LIRE_MOI.txt for details.",
+      "bytes": 884770,
+      "sha256": "80cb7ae7e8ad352e996ea3109b98fcf10cb9b1a6675ea4841e6c639896279752",
+      "cover_width": 320,
+      "cover_height": 240,
+      "cover_caption": "VGA ARTWORK · 320 × 240 · 256 COLORS",
+      "cover_alt": "VGA pixel artwork inspired by the reference photo: blue Plymouth Superbird NASCAR number 43 racing past the grandstands."
     }
   ]
 }
