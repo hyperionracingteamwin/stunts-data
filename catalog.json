@@ -231,6 +231,35 @@
       "download_enabled": true,
       "vga_bitmap": "packs/nissan-maxima-drift-wagon/cover.bmp",
       "promo": "packs/nissan-maxima-drift-wagon/promo_sakura_crash.png"
+    },
+    {
+      "id": "alpine-a110-berlinette",
+      "number": "06",
+      "title": "Alpine A110 Berlinette",
+      "subtitle": "1970 · 1600 S · A110",
+      "car": "Alpine A110 1600 S (1970)",
+      "description": "The French Berlinette joins Stunts: eleven paintjobs, a custom cockpit with three pedals, retouched steering-wheel states and a gear-change animation. The complete pack includes a reversible installer and documentation in English and French.",
+      "archive": "packs/alpine-a110-berlinette/ALPINE_A110_FINAL_PACK.zip",
+      "cover": "packs/alpine-a110-berlinette/cover.png",
+      "bitmap": "packs/alpine-a110-berlinette/cover.bmp",
+      "version": "1.0",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "1970 Berlinette",
+        "11 paintjobs",
+        "Custom cockpit",
+        "Installer & uninstaller"
+      ],
+      "install": "Extract the ZIP and place ALP_A110 directly inside your Stunts game folder. Close the game, then run INSTALL.BAT from ALP_A110. Restore previous A110 resources with UNINST.BAT from the same folder; keep the folder and its backup while installed.",
+      "bytes": 36474,
+      "sha256": "e527d68b1745cbb475c52cce0c559c6d5fe02c60b54ed4c25f389a0fa6c483a7",
+      "archive_entries": 12,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "VGA ARTWORK · 320 × 200 · 256 COLORS",
+      "cover_alt": "Blue classic Alpine A110 Berlinette on a winding mountain pass beneath snow-capped Alpine peaks, in VGA pixel art.",
+      "download_enabled": true
     }
   ],
   "replay_collections": [
