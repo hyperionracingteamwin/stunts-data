@@ -289,5 +289,32 @@
         }
       ]
     }
+  ],
+  "upcoming": [
+    {
+      "id": "nissan-maxima-drift-wagon",
+      "number": "05",
+      "title": "Nissan Maxima Drift Wagon",
+      "subtitle": "CARNIMA · Sakura Crash · V08",
+      "car": "NIMA / CARNIMA",
+      "version": "08",
+      "platform": "Stunts 1.1 VGA",
+      "release_status": "ZIP binary pending upload; artwork and project page published",
+      "archive": "packs/nissan-maxima-drift-wagon/NIMA_DRIFT_WAGON_V08_COMPLETE.zip",
+      "archive_bytes": 7838076,
+      "archive_sha256": "884796fe237e0bfcd0c4d7e91ebb673d5623640915a78bc78c1febaf8ce87e46",
+      "archive_entries": 67,
+      "cover": "packs/nissan-maxima-drift-wagon/cover.svg",
+      "vga_cover": "packs/nissan-maxima-drift-wagon/cover.png",
+      "vga_bitmap": "packs/nissan-maxima-drift-wagon/cover.bmp",
+      "promo": "packs/nissan-maxima-drift-wagon/promo_sakura_crash.png",
+      "tags": [
+        "11 paintjobs",
+        "Tokyo Drift",
+        "3D sakura crash petals",
+        "Custom cockpit"
+      ],
+      "download_enabled": false
+    }
   ]
 }
