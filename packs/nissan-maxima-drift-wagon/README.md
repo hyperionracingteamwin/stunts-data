@@ -49,9 +49,9 @@ Do not rename or manually relocate the scripts away from their complete package 
 
 ## Release provenance and next step
 
-The latest submitted archive is `NIMA_DRIFT_WAGON_V08_COMPLETE(4).zip` (7,838,076 bytes), following updated V08 variants and a separately supplied `STNIMA.3SH`. An earlier generated V08 complete ZIP is 7,838,043 bytes. These are **not byte-identical**; the newer archive must take precedence. The current interface could identify the latest upload but could not retrieve its binary contents for an integrity check or GitHub upload. Do **not** substitute the older ZIP or invent a SHA-256 for the newer one.
+The latest submitted archive is `NIMA_DRIFT_WAGON_V08_COMPLETE(4).zip` (7,838,076 bytes), following updated V08 variants and a separately supplied `STNIMA.3SH`. An earlier generated V08 complete ZIP is 7,838,043 bytes. These are **not byte-identical**; the newer archive must take precedence. The final archive was opened locally and passed Python's complete ZIP CRC check (67 entries). Its verified **SHA-256 is `884796fe237e0bfcd0c4d7e91ebb673d5623640915a78bc78c1febaf8ce87e46`**. The exact binary is **not yet hosted on GitHub**, so the garage entry intentionally has no download button. Do **not** substitute the older ZIP.
 
-**To complete publication:** transfer the exact latest ZIP to `packs/nissan-maxima-drift-wagon/`, generate a true 320 × 200 indexed VGA cover from the supplied promotional image, verify download and installation structure, then activate the live download button and update `catalog.json`.
+**To complete publication:** upload the exact locally verified ZIP to `packs/nissan-maxima-drift-wagon/`, generate a true 320 × 200 indexed VGA cover from the supplied promotional image, verify download and installation structure, then activate the live download button and update `catalog.json`.
 
 ---
 *Project documentation carried over from the 27 October 2026 CARNIMA development and publication conversations.*
