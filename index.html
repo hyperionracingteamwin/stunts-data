@@ -98,6 +98,13 @@ footer{border-top:1px solid var(--line);padding:24px 0 30px;color:var(--muted);f
 .feature-superbird{--pack-accent:#8ac4ff;background:linear-gradient(120deg,#13273f,#192a3d);border-color:#456c94}
 .pack-nav a:nth-child(4) span{color:#8ac4ff}
 .feature-superbird .feature-visual img{image-rendering:pixelated}
+.feature-nima{--pack-accent:#f4a3cf;background:linear-gradient(120deg,#20243c,#39243d);border-color:#93627b}
+.pack-nav a:nth-child(5) span{color:#f4a3cf}
+.nima-art{width:320px;max-width:100%;aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:linear-gradient(140deg,#151e39 10%,#542748 65%,#25182e);border:1px solid #7d5a82;position:relative;overflow:hidden}
+.nima-art::before{content:"✿  ✿   ✿   ✿     ✿";position:absolute;top:8px;left:0;right:0;color:#ffb3d7;letter-spacing:10px}
+.nima-art strong{font:900 38px/1 ui-monospace,Consolas,monospace;letter-spacing:.08em;color:#ffe5f3;text-shadow:3px 3px #7c3863}
+.nima-art span{margin-top:16px;color:#f7bdde;font:700 13px ui-monospace,Consolas,monospace;letter-spacing:.13em}
+.nima-pending{display:inline-block;border:1px solid #906982;border-radius:9px;background:#32213b;color:#ffd3ea;padding:10px 15px;font-size:.86rem;font-weight:800}
 .replay-collection{scroll-margin-top:95px}
 .replay-collection+.replay-collection{border-top:1px solid var(--line)}
 .mode-norh .mode-label{color:var(--gold);background:#373125;border-color:#796443}
@@ -109,8 +116,8 @@ footer{border-top:1px solid var(--line);padding:24px 0 30px;color:var(--muted);f
   <nav class="toplinks" aria-label="Main links"><a href="https://hyperionracingteam.win/">Team website</a><a href="https://github.com/hyperionracingteamwin/stunts-data" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></nav>
 </div></header>
 <main class="wrap">
-  <div class="intro"><div><span class="eyebrow">The Stunts workshop</span><h1>The Stunts<br>mod garage.</h1><p>Four complete editions. Custom cars, animated intros, native music and final racing replays for the classic DOS game <em>Stunts</em>.</p></div><div class="intro-mark" aria-hidden="true">04<small>COMPLETE PACKS</small></div></div>
-<nav class="pack-nav" aria-label="Choose a mod pack"><a href="#back-to-the-future"><span>01</span><div><strong>Back to the Future</strong><small>DeLorean BACK · Hill Valley</small></div></a><a href="#guns-n-roses"><span>02</span><div><strong>Guns N’ Roses</strong><small>November Rain Edition</small></div></a><a href="#renault-5-prost"><span>03</span><div><strong>Renault 5 Turbo</strong><small>1982 · Prost Edition · Johnny and Mary</small></div></a><a href="#plymouth-superbird-nascar"><span>04</span><div><strong>Plymouth Superbird</strong><small>1970 · NASCAR · BIRD</small></div></a></nav>
+  <div class="intro"><div><span class="eyebrow">The Stunts workshop</span><h1>The Stunts<br>mod garage.</h1><p>Four downloadable editions and the upcoming fifth CARNIMA. Custom cars, animated intros, native music and final racing replays for the classic DOS game <em>Stunts</em>.</p></div><div class="intro-mark" aria-hidden="true">05<small>GARAGE EDITIONS</small></div></div>
+<nav class="pack-nav" aria-label="Choose a mod pack"><a href="#back-to-the-future"><span>01</span><div><strong>Back to the Future</strong><small>DeLorean BACK · Hill Valley</small></div></a><a href="#guns-n-roses"><span>02</span><div><strong>Guns N’ Roses</strong><small>November Rain Edition</small></div></a><a href="#renault-5-prost"><span>03</span><div><strong>Renault 5 Turbo</strong><small>1982 · Prost Edition · Johnny and Mary</small></div></a><a href="#plymouth-superbird-nascar"><span>04</span><div><strong>Plymouth Superbird</strong><small>1970 · NASCAR · BIRD</small></div></a><a href="#nissan-maxima-drift-wagon"><span>05</span><div><strong>Nissan Maxima Drift Wagon</strong><small>CARNIMA · Sakura Crash · V08</small></div></a></nav>
 <article class="feature feature-bttf" id="back-to-the-future" data-pack="back-to-the-future" aria-labelledby="featured-title">
     <div class="feature-body">
       <span class="eyebrow">01 · DeLorean BACK · Hill Valley</span>
@@ -163,7 +170,20 @@ footer{border-top:1px solid var(--line);padding:24px 0 30px;color:var(--muted);f
     </div>
     <div class="feature-visual"><img src="./packs/plymouth-superbird-nascar/cover.png" alt="VGA pixel artwork inspired by the reference photo: blue Plymouth Superbird NASCAR number 43 racing past the grandstands." width="320" height="240" loading="lazy"><span class="cover-caption">VGA ARTWORK · 320 × 240 · 256 COLORS</span></div>
   </article>
-<p class="pack-note">Four separate packs for your own Stunts 1.1 installation. Keep an independent game folder for each edition.<a href="#replays">Explore the final race replays ↓</a></p>
+<article class="feature feature-nima" id="nissan-maxima-drift-wagon" data-pack="nissan-maxima-drift-wagon" aria-labelledby="nima-title">
+    <div class="feature-body">
+      <span class="eyebrow">05 · Nissan Maxima Drift Wagon · CARNIMA</span>
+      <h2 id="nima-title">MAXIMA DRIFT<br><span>WAGON</span></h2>
+      <p class="feature-summary">Tokyo Drift meets Stunts: an eleven-paint Nissan racing wagon with a detailed native cockpit, a contrasting front splitter, sunroof and sakura-petal 3D crash debris. V08 includes the recalibrated steering-wheel marker and documented installation workflow.</p>
+      <div class="tagrow"><span class="tag">11 paint jobs</span><span class="tag">Sakura Crash</span><span class="tag">Native DOS 3D</span></div>
+      <p class="byline">Created by Alain il Professore · Hyperion Racing Team</p>
+      <div class="feature-actions"><span class="nima-pending">Final ZIP pending verification</span><a class="btn btn-secondary" href="./packs/nissan-maxima-drift-wagon/README.md">Read technical notes</a></div>
+      <p class="pack-state">V08 · 27 October 2026 · Stunts 1.1 VGA · No download yet</p>
+      <details class="pack-install"><summary>Install &amp; restore <span>when available</span></summary><p>Place the entire NIMA_DRIFT_WAGON_V08_COMPLETE directory within your own Stunts directory, then run NIMAINST.BAT inside that directory. Restore with NIMAUNIN.BAT. The scripts back up prior files in NIMABAK.</p></details>
+    </div>
+    <div class="feature-visual"><div class="nima-art" role="img" aria-label="Temporary typographic placeholder for Nissan Maxima Drift Wagon, with pink sakura blossoms"><strong>NIMA</strong><span>SAKURA CRASH · V08</span></div><span class="cover-caption">COVER ART PENDING · ORIGINAL PACK RETAINED</span></div>
+  </article>
+<p class="pack-note">Four published packs; CARNIMA is documented as the upcoming fifth.<a href="#replays">Explore the final race replays ↓</a></p>
   <div class="section-title" id="catalog"><h2>Explore the archive</h2><p>Live index of the public GitHub repository</p></div>
   <div class="tools"><input id="search" class="search" type="search" placeholder="Search cars, tracks, mods, folders or replays…" aria-label="Search files"><button class="small-btn" id="refresh" type="button">Refresh</button></div>
   <div class="tabs" role="tablist" aria-label="Archive category"><button type="button" class="tab" data-group="all" role="tab" aria-selected="true">All</button><button type="button" class="tab" data-group="packs" role="tab" aria-selected="false">Complete Packs</button><button type="button" class="tab" data-group="car" role="tab" aria-selected="false">Cars</button><button type="button" class="tab" data-group="tracks" role="tab" aria-selected="false">Tracks</button><button type="button" class="tab" data-group="mods" role="tab" aria-selected="false">Mods</button><button type="button" class="tab" data-group="rpl" role="tab" aria-selected="false">Replays</button></div>
