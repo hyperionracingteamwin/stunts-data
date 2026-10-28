@@ -39,7 +39,7 @@ The supplied **AMX LECLERC V03.zip** is published byte for byte as **AMX_LECLERC
 
 The website preview **cover.png** and downloadable **cover.bmp** use the same indexed **320 × 240** pixels and **256-entry palette**, with RGB values aligned to VGA six-bit channels. This is promotional artwork, not a game screenshot or an installed title screen.
 
-Generated with the built-in image generator, then encoded for VGA-style display. Prompt: Camouflaged French Leclerc main battle tank, front three-quarter view with the complete gun and tracks in frame, dusty training ground and distant hills, early 1990s DOS VGA digitized-photograph style, clustered pixels and restrained 256-color palette, 4:3 composition, no people or text.
+Generated with the built-in image generator, then encoded for VGA-style display. Prompt: Camouflaged French Leclerc main battle tank, front three-quarter view with the complete gun and tracks in frame, dusty training ground and distant hills, early 1990s DOS VGA digitized-photograph style, clustered pixels and restrained 256-color palette, 4:3 composition, no people or text. Refined to show six large road wheels per side and the compact Leclerc silhouette.
 
 ## Integrity
 
