@@ -260,6 +260,35 @@
       "cover_caption": "VGA ARTWORK · 320 × 200 · 256 COLORS",
       "cover_alt": "Blue classic Alpine A110 Berlinette on a winding mountain pass beneath snow-capped Alpine peaks, in VGA pixel art.",
       "download_enabled": true
+    },
+    {
+      "id": "amx-leclerc",
+      "number": "07",
+      "title": "AMX Leclerc",
+      "subtitle": "Main battle tank · LECL · V03",
+      "car": "AMX Leclerc main battle tank",
+      "description": "A French main battle tank joins the Stunts garage. AMX Leclerc V03 includes the native LECL vehicle resource, 3D shape and VGA cockpit resources, supplied as the original four-file archive.",
+      "archive": "packs/amx-leclerc/AMX_LECLERC_V03.zip",
+      "cover": "packs/amx-leclerc/cover.png",
+      "bitmap": "packs/amx-leclerc/cover.bmp",
+      "version": "03",
+      "platform": "Stunts 1.1 VGA",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "Main battle tank",
+        "French armour",
+        "LECL",
+        "VGA cockpit"
+      ],
+      "install": "Close Stunts. Extract the ZIP and copy CARLECL.RES, STLECL.3SH, STDALECL.VSH and STDBLECL.VSH into your Stunts 1.1 VGA game folder. Back up any existing LECL resources first. Move competing STLECL.P3S, STDALECL.PVS and STDBLECL.PVS outside the game folder if present. To restore, remove the four installed files and put back your original LECL files.",
+      "bytes": 24967,
+      "sha256": "e676eed47723fba73364c38cf873063c2268811031832fcc7ceb44ebe4c9873d",
+      "archive_entries": 4,
+      "cover_width": 320,
+      "cover_height": 240,
+      "cover_caption": "DIGITIZED VGA ARTWORK · 320 × 240 · 256 COLORS",
+      "cover_alt": "Digitized VGA illustration of a camouflaged French Leclerc main battle tank on a dusty training ground.",
+      "download_enabled": true
     }
   ],
   "replay_collections": [

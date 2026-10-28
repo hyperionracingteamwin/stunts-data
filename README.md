@@ -8,3 +8,4 @@ Hyperion Racing Team’s [Stunts Mod Garage](https://hyperionracingteamwin.githu
 4. [Plymouth Superbird NASCAR — V08](packs/plymouth-superbird-nascar/) — custom cockpit, BIRD car and development sources.
 5. [Nissan Maxima Drift Wagon — CARNIMA V08](packs/nissan-maxima-drift-wagon/) — eleven paintjobs and sakura crash petals.
 6. [Alpine A110 Berlinette — 1600 S (1970)](packs/alpine-a110-berlinette/) — custom cockpit, eleven paintjobs, installer/uninstaller and English/French documentation.
+7. [AMX Leclerc — V03](packs/amx-leclerc/) — French main battle tank, native LECL resources and digitized VGA artwork.
