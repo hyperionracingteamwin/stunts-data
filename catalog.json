@@ -289,6 +289,87 @@
       "cover_caption": "DIGITIZED VGA ARTWORK · 320 × 240 · 256 COLORS",
       "cover_alt": "Digitized VGA illustration of a camouflaged French Leclerc main battle tank on a dusty training ground.",
       "download_enabled": true
+    },
+    {
+      "id": "tesla-cybertruck",
+      "number": "08",
+      "title": "Tesla Cybertruck",
+      "subtitle": "Electric pickup · CYBT · FINAL",
+      "car": "Tesla Cybertruck",
+      "description": "The angular electric pickup joins Stunts with ten named paintjobs, native CYBT bodywork and a custom VGA cockpit. Download the original final archive and explore its colour lineup, from Robot inox to White Lies.",
+      "archive": "packs/tesla-cybertruck/CYBT_FINAL.zip",
+      "cover": "packs/tesla-cybertruck/cover.png",
+      "bitmap": "packs/tesla-cybertruck/cover.bmp",
+      "version": "FINAL",
+      "platform": "Stunts 1.1 VGA",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "10 paintjobs",
+        "Electric pickup",
+        "CYBT",
+        "Custom VGA cockpit"
+      ],
+      "install": "Close Stunts. Back up any existing CYBT files. Extract the ZIP and copy CARCYBT.RES, STCYBT.3SH, STDACYBT.VSH and STDBCYBT.VSH into your Stunts 1.1 VGA game folder. Move competing STCYBT.P3S, STDACYBT.PVS and STDBCYBT.PVS outside the game folder if present. To uninstall, remove the four installed files and restore your backups.",
+      "bytes": 16817,
+      "sha256": "fad36a3348b5681023cd35a0e4e54ef6e013f551c50f8f8a3dba41dffdb98601",
+      "archive_entries": 5,
+      "cover_width": 320,
+      "cover_height": 240,
+      "cover_caption": "VGA ARTWORK · 320 × 240 · 256 COLORS",
+      "cover_alt": "VGA pixel illustration of a stainless steel Tesla Cybertruck on an elevated Stunts track at sunset, with a loop in the distance.",
+      "download_enabled": true,
+      "paintjobs": [
+        {
+          "number": 1,
+          "name": "Robot inox",
+          "colour": "Inox / stainless steel"
+        },
+        {
+          "number": 2,
+          "name": "Mars red",
+          "colour": "Rouge / red"
+        },
+        {
+          "number": 3,
+          "name": "bleu cyan cyberpunk",
+          "colour": "Cyan"
+        },
+        {
+          "number": 4,
+          "name": "greenforest green",
+          "colour": "Vert forêt / forest green"
+        },
+        {
+          "number": 5,
+          "name": "woke pink",
+          "colour": "Rose / pink"
+        },
+        {
+          "number": 6,
+          "name": "Trumpery gold",
+          "colour": "Or / gold"
+        },
+        {
+          "number": 7,
+          "name": "musk brown",
+          "colour": "Marron / brown"
+        },
+        {
+          "number": 8,
+          "name": "purple eater from mars",
+          "colour": "Violet / purple"
+        },
+        {
+          "number": 9,
+          "name": "Black is beautiful",
+          "colour": "Noir / black"
+        },
+        {
+          "number": 10,
+          "name": "White Lies",
+          "colour": "Blanc / white"
+        }
+      ]
     }
   ],
   "replay_collections": [
