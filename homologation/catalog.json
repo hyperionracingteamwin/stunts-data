@@ -4,7 +4,7 @@
   "track": "TOPSTNT.TRK",
   "youtubeChannel": "https://www.youtube.com/@HyperionRacingTeam",
   "youtubeTitle": "Stunts – Acura NSX Hot Lap | The Stung on TOPSTNT.TRK (2:32.30)",
-  "youtubeUrl": null,
+  "youtubeUrl": "https://youtu.be/l_B17LbPx1M",
   "reports": [
     {
       "code": "ANSX",
@@ -22,7 +22,7 @@
       "track": "TOPSTNT.TRK",
       "replay": "LANSX001.RPL",
       "reportPath": "reports/HRT_HOMOLOGATION_ANSX.html",
-      "youtubeUrl": null
+      "youtubeUrl": "https://youtu.be/l_B17LbPx1M"
     }
   ]
 }
