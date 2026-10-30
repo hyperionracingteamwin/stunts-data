@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "HRT Homologation · The Stung · TOP STUNTS",
+  "track": "TOPSTNT.TRK",
+  "youtubeChannel": "https://www.youtube.com/@HyperionRacingTeam",
+  "youtubeTitle": "Stunts – Acura NSX Hot Lap | The Stung on TOPSTNT.TRK (2:32.30)",
+  "youtubeUrl": null,
+  "reports": [
+    {
+      "code": "ANSX",
+      "name": "Acura NSX",
+      "category": "Supercar",
+      "date": "2026-10-30",
+      "lapSeconds": 152.3,
+      "maxLapMph": 133.1,
+      "averageLapMph": 82,
+      "topKph": 278.1,
+      "acceleration100": 5.87,
+      "powerHp": 214,
+      "testsPassed": 7,
+      "testsTotal": 7,
+      "track": "TOPSTNT.TRK",
+      "replay": "LANSX001.RPL",
+      "reportPath": "reports/HRT_HOMOLOGATION_ANSX.html",
+      "youtubeUrl": null
+    }
+  ]
+}
