@@ -123,16 +123,33 @@ footer{border-top:1px solid var(--line);padding:24px 0 30px;color:var(--muted);f
 .paintjob-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 28px;padding-left:25px;margin:12px 0;color:#d2ddeb;font-size:.83rem}
 .paintjob-list li{padding-left:2px;overflow-wrap:anywhere}.paintjob-list li::marker{color:var(--pack-accent);font-weight:800}
 @media(max-width:550px){.paintjob-list{grid-template-columns:1fr}}
+
+.homologation-spotlight{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:23px;align-items:center;margin:0 0 30px;padding:clamp(20px,3vw,32px);border:1px solid #92555f;border-radius:17px;background:linear-gradient(115deg,#1c263c,#292034 70%,#321d30)}
+.homologation-spotlight h2{margin:7px 0 10px;letter-spacing:-.035em;font-size:clamp(1.3rem,3vw,2.05rem);line-height:1.18}.homologation-spotlight h2 span{color:var(--gold)}
+.homologation-spotlight p{color:#cbd8e8;max-width:700px;margin:0;font-size:.94rem;line-height:1.7}.homologation-record{border:1px solid #a45b65;background:#160f20;padding:20px;text-align:center;border-radius:12px;display:flex;flex-direction:column;align-items:center;gap:7px}
+.homologation-record small{font-size:.67rem;letter-spacing:.12em;color:#f0bdc8;font-weight:900}
+.homologation-record strong{font:900 clamp(2rem,4vw,2.8rem) ui-monospace,Consolas,monospace;color:#ffe1a3;letter-spacing:-.06em}
+.homologation-record span{font-size:.85rem;font-weight:800}.homologation-record em{font-size:.72rem;font-style:normal;color:#94ecd0}
+@media(max-width:800px){.homologation-spotlight{grid-template-columns:1fr}.homologation-record{align-items:flex-start;text-align:left}}
 </style>
 </head>
 <body>
 <header class="topbar"><div class="wrap">
   <a class="brand" href="./" aria-label="Hyperion Stunts Mod Garage homepage"><span class="brand-emblem">H</span><span><strong>HYPERION RACING TEAM</strong><small>STUNTS MOD GARAGE</small></span></a>
-  <nav class="toplinks" aria-label="Main links"><a href="https://hyperionracingteam.win/">Team website</a><a href="https://github.com/hyperionracingteamwin/stunts-data" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></nav>
+  <nav class="toplinks" aria-label="Main links"><a href="./homologation/index.html">Homologation · The Stung</a><a href="https://hyperionracingteam.win/">Team website</a><a href="https://github.com/hyperionracingteamwin/stunts-data" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></nav>
 </div></header>
 <main class="wrap">
   <div class="intro"><div><span class="eyebrow">The Stunts workshop</span><h1>The Stunts<br>mod garage.</h1><p>Eight Stunts projects. Custom cars, animated intros, native music and final racing replays for the classic DOS game <em>Stunts</em>.</p></div><div class="intro-mark" aria-hidden="true">08<small>STUNTS PROJECTS</small></div></div>
 <nav class="pack-nav" aria-label="Choose a mod pack"><a href="#back-to-the-future"><span>01</span><div><strong>Back to the Future</strong><small>DeLorean BACK · Hill Valley</small></div></a><a href="#guns-n-roses"><span>02</span><div><strong>Guns N’ Roses</strong><small>November Rain Edition</small></div></a><a href="#renault-5-prost"><span>03</span><div><strong>Renault 5 Turbo</strong><small>1982 · Prost Edition · Johnny and Mary</small></div></a><a href="#plymouth-superbird-nascar"><span>04</span><div><strong>Plymouth Superbird</strong><small>1970 · NASCAR · BIRD</small></div></a><a href="#nissan-maxima-drift-wagon"><span>05</span><div><strong>Nissan Maxima Drift Wagon</strong><small>CARNIMA · Sakura Crash · V08</small></div></a><a href="#alpine-a110-berlinette"><span>06</span><div><strong>Alpine A110 Berlinette</strong><small>1970 · 1600 S · A110</small></div></a><a href="#amx-leclerc"><span>07</span><div><strong>AMX Leclerc</strong><small>Main battle tank · LECL · V03</small></div></a><a href="#tesla-cybertruck"><span>08</span><div><strong>Tesla Cybertruck</strong><small>Electric pickup · CYBT · FINAL</small></div></a></nav>
+<section class="homologation-spotlight" aria-labelledby="homologation-title">
+  <div>
+    <span class="eyebrow">HRT TEST LAB · THE MYSTERIOUS DRIVER</span>
+    <h2 id="homologation-title">CAR HOMOLOGATION <span>&amp; TOP STUNTS</span></h2>
+    <p>A permanent, searchable car testing catalogue inspired by Stunts DynoLab. The Stung takes on the TOPSTNT.TRK proving ground, while each car receives a detailed experimental homologation report. New reports appear automatically as HTML files are published.</p>
+    <div class="feature-actions"><a class="btn btn-gold" href="./homologation/index.html">🏁 Explore homologations and lap times</a><a class="btn btn-secondary" href="./homologation/reports/HRT_HOMOLOGATION_ANSX.html">First report · Acura NSX</a></div>
+  </div>
+  <div class="homologation-record"><small>TOP STUNTS · FIRST BENCHMARK</small><strong>2:32.30</strong><span>ANSX · ACURA NSX</span><em>7 / 7 TESTS PASSED</em></div>
+</section>
 <article class="feature feature-bttf" id="back-to-the-future" data-pack="back-to-the-future" aria-labelledby="featured-title">
     <div class="feature-body">
       <span class="eyebrow">01 · DeLorean BACK · Hill Valley</span>
