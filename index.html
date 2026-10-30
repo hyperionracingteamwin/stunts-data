@@ -131,15 +131,57 @@ footer{border-top:1px solid var(--line);padding:24px 0 30px;color:var(--muted);f
 .homologation-record strong{font:900 clamp(2rem,4vw,2.8rem) ui-monospace,Consolas,monospace;color:#ffe1a3;letter-spacing:-.06em}
 .homologation-record span{font-size:.85rem;font-weight:800}.homologation-record em{font-size:.72rem;font-style:normal;color:#94ecd0}
 @media(max-width:800px){.homologation-spotlight{grid-template-columns:1fr}.homologation-record{align-items:flex-start;text-align:left}}
+
+/* Three immediate destinations, followed by the existing pack and competition archives. */
+.hub-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:0 0 34px}
+.hub-tile{--hub-color:var(--gold);display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0;min-height:215px;padding:23px;border:1px solid #42536e;border-top:3px solid var(--hub-color);border-radius:14px;background:linear-gradient(145deg,#17243a,#0e192a);color:var(--text);text-decoration:none;transition:border-color .17s,background .17s,transform .17s}
+.hub-stunts{--hub-color:#ff909d;background:linear-gradient(145deg,#302034,#14192b)}
+.hub-replays{--hub-color:var(--mint);background:linear-gradient(145deg,#152d36,#101d2d)}
+.hub-tile:hover,.hub-tile:focus-visible{border-color:var(--hub-color);background:#223149;transform:translateY(-2px)}
+.hub-tile:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.hub-index{font:800 .71rem ui-monospace,Consolas,monospace;letter-spacing:.14em;color:var(--hub-color)}
+.hub-tile strong{font-size:clamp(1.25rem,2.5vw,1.75rem);line-height:1.2;letter-spacing:-.035em}
+.hub-description{color:#c5d3e5;font-size:.88rem;line-height:1.55}
+.hub-action{margin-top:auto;color:var(--hub-color);font-weight:800;font-size:.81rem}
+.garage-heading{scroll-margin-top:100px;margin-bottom:13px}.garage-heading h2{font-size:1.65rem;letter-spacing:-.025em;margin:4px 0}.garage-heading p{margin:0;color:var(--muted);font-size:.85rem}
+#replays{scroll-margin-top:105px}
+.toplinks{gap:clamp(.7rem,1.25vw,1rem);font-size:.81rem;flex-wrap:wrap}
+.toplinks a:not(.toplink-utility){font-weight:800;color:#e4eaf6}
+.toplinks a:not(.toplink-utility):hover{color:var(--gold)}
+@media(max-width:1040px){.topbar .wrap{flex-wrap:wrap;justify-content:center;padding:12px 0;gap:10px}.toplinks{width:100%;justify-content:center}.toplinks a.toplink-utility{display:none}.garage-heading,#replays{scroll-margin-top:145px}}
+@media(max-width:760px){.hub-nav{grid-template-columns:1fr;gap:9px}.hub-tile{min-height:0;padding:17px 18px;gap:7px}.hub-tile strong{font-size:1.3rem}.hub-description{font-size:.83rem}.hub-action{margin-top:4px}}
+@media(max-width:550px){.toplinks a:nth-child(2){display:inline}.toplinks{gap:6px;justify-content:space-between}.toplinks a:not(.toplink-utility){font-size:.73rem;padding:6px 3px}.topbar .wrap{align-items:center}.garage-heading,#replays{scroll-margin-top:158px}}
+@media(prefers-reduced-motion:reduce){.hub-tile{transition:none}.hub-tile:hover{transform:none}}
 </style>
 </head>
 <body>
 <header class="topbar"><div class="wrap">
   <a class="brand" href="./" aria-label="Hyperion Stunts Mod Garage homepage"><span class="brand-emblem">H</span><span><strong>HYPERION RACING TEAM</strong><small>STUNTS MOD GARAGE</small></span></a>
-  <nav class="toplinks" aria-label="Main links"><a href="./homologation/index.html">Homologation · The Stung</a><a href="https://hyperionracingteam.win/">Team website</a><a href="https://github.com/hyperionracingteamwin/stunts-data" target="_blank" rel="noopener noreferrer">GitHub repository ↗</a></nav>
+  <nav class="toplinks" aria-label="Main sections"><a href="#garage-mods">Garage &amp; Mods</a><a href="./homologation/index.html">TOP STUNTS</a><a href="#replays">Competition RPL</a><a class="toplink-utility" href="https://hyperionracingteam.win/">Team website ↗</a><a class="toplink-utility" href="https://github.com/hyperionracingteamwin/stunts-data" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
 </div></header>
 <main class="wrap">
   <div class="intro"><div><span class="eyebrow">The Stunts workshop</span><h1>The Stunts<br>mod garage.</h1><p>Eight Stunts projects. Custom cars, animated intros, native music and final racing replays for the classic DOS game <em>Stunts</em>.</p></div><div class="intro-mark" aria-hidden="true">08<small>STUNTS PROJECTS</small></div></div>
+<nav class="hub-nav" aria-label="Explore Hyperion Racing Team">
+  <a class="hub-tile hub-garage" href="#garage-mods">
+    <span class="hub-index">01 / MOD GARAGE</span>
+    <strong>Garage &amp; Mods</strong>
+    <span class="hub-description">Custom cars, paintjobs, complete themed packs and installers for Stunts 1.1.</span>
+    <span class="hub-action">Explore the garage <span aria-hidden="true">↘</span></span>
+  </a>
+  <a class="hub-tile hub-stunts" href="./homologation/index.html">
+    <span class="hub-index">02 / TEST LAB</span>
+    <strong>TOP STUNTS</strong>
+    <span class="hub-description">The Stung’s hot laps, car homologation certificates and performance rankings.</span>
+    <span class="hub-action">Open the test catalogue <span aria-hidden="true">↗</span></span>
+  </a>
+  <a class="hub-tile hub-replays" href="#replays">
+    <span class="hub-index">03 / RACING ARCHIVE</span>
+    <strong>Competition RPL</strong>
+    <span class="hub-description">Official competition replays, race results and downloadable .RPL files.</span>
+    <span class="hub-action">Browse race replays <span aria-hidden="true">↘</span></span>
+  </a>
+</nav>
+<div class="garage-heading" id="garage-mods"><span class="eyebrow">THE CUSTOM CAR COLLECTION</span><h2>Garage &amp; Mods</h2><p>Select a project below to view its car, preview and complete pack.</p></div>
 <nav class="pack-nav" aria-label="Choose a mod pack"><a href="#back-to-the-future"><span>01</span><div><strong>Back to the Future</strong><small>DeLorean BACK · Hill Valley</small></div></a><a href="#guns-n-roses"><span>02</span><div><strong>Guns N’ Roses</strong><small>November Rain Edition</small></div></a><a href="#renault-5-prost"><span>03</span><div><strong>Renault 5 Turbo</strong><small>1982 · Prost Edition · Johnny and Mary</small></div></a><a href="#plymouth-superbird-nascar"><span>04</span><div><strong>Plymouth Superbird</strong><small>1970 · NASCAR · BIRD</small></div></a><a href="#nissan-maxima-drift-wagon"><span>05</span><div><strong>Nissan Maxima Drift Wagon</strong><small>CARNIMA · Sakura Crash · V08</small></div></a><a href="#alpine-a110-berlinette"><span>06</span><div><strong>Alpine A110 Berlinette</strong><small>1970 · 1600 S · A110</small></div></a><a href="#amx-leclerc"><span>07</span><div><strong>AMX Leclerc</strong><small>Main battle tank · LECL · V03</small></div></a><a href="#tesla-cybertruck"><span>08</span><div><strong>Tesla Cybertruck</strong><small>Electric pickup · CYBT · FINAL</small></div></a></nav>
 <section class="homologation-spotlight" aria-labelledby="homologation-title">
   <div>
@@ -389,7 +431,7 @@ function render(){
     const section=$('panels').querySelector('[data-section="'+group+'"]');
     section.hidden=(activeGroup!=='all'&&activeGroup!==group)||(activeGroup==='all'&&!data[group].length);
   }
-  document.querySelectorAll('.tab').forEach(tab=>{tab.hidden=tab.dataset.group!=='all'&&!data[tab.dataset.group].length;});
+  document.querySelectorAll('.tab').forEach(tab=>{tab.hidden=tab.dataset.group!=='all'&&!data[tab.dataset.group].length&&tab.dataset.group!==activeGroup;});
   ['packs','car','tracks','mods'].forEach(renderFlat);renderReplay();
 }
 function publishedEntries(catalog){
@@ -423,8 +465,22 @@ async function load(){
   }
 }
 
-$('search').addEventListener('input',render);$('refresh').addEventListener('click',load);document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>{activeGroup=tab.dataset.group;document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b===tab)));render();}));
-load();
+function openCompetitionReplays(scroll=true){
+  activeGroup='rpl';
+  document.querySelectorAll('.tab').forEach(tab=>tab.setAttribute('aria-selected',String(tab.dataset.group==='rpl')));
+  render();
+  if(scroll)requestAnimationFrame(()=>$('replays').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'}));
+}
+document.querySelectorAll('a[href="#replays"]').forEach(link=>link.addEventListener('click',event=>{
+  event.preventDefault();
+  if(location.hash!=='#replays')history.pushState(null,'','#replays');
+  openCompetitionReplays();
+}));
+window.addEventListener('hashchange',()=>{if(location.hash==='#replays')openCompetitionReplays();});
+$('search').addEventListener('input',render);
+$('refresh').addEventListener('click',load);
+document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>{activeGroup=tab.dataset.group;document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b===tab)));render();}));
+load().then(()=>{if(location.hash==='#replays')openCompetitionReplays();});
 </script>
 </body>
 </html>
