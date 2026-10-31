@@ -370,6 +370,31 @@
           "colour": "Blanc / white"
         }
       ]
+    },
+    {
+      "id": "volkswagen-meteor-copa-truck",
+      "number": "09",
+      "title": "Volkswagen Meteor Copa Truck",
+      "subtitle": "Copa Truck 2026 · VMET · V2",
+      "car": "Volkswagen Meteor Copa Truck 2026",
+      "description": "Copa Truck comes to Stunts: a Volkswagen Meteor racing truck with 16 original paintjobs, native VGA cockpit and V2 rear-cab brake-lamp visibility fix. The car's original physics are preserved. Includes reversible installers for Windows and DOSBox, multilingual guides, changelogs and geometry audit.",
+      "archive": "packs/volkswagen-meteor-copa-truck/VMET.zip",
+      "version": "V2",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "credits": "Special thanks to Victor Narl for the challenge and Ryoma for his mentorship.",
+      "tags": [
+        "16 paintjobs",
+        "Copa Truck 2026",
+        "VMET",
+        "Windows / DOSBox installer"
+      ],
+      "install": "Unzip the archive into VMETC26 inside your Stunts folder (e.g. C:\\STUNTS\\VMETC26). Run INSTWIN.CMD on Windows or INSTDOS.BAT in DOSBox. Restore with UNWIN.CMD or UNDDOS.BAT. Keep the VMETC26/BACKUP folder until restoration.",
+      "bytes": 45993,
+      "sha256": "d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45",
+      "archive_entries": 20,
+      "download_enabled": true,
+      "notes": "Native binary validation passed; in-game DOSBox brake-lamp visibility verification remains pending."
     }
   ],
   "replay_collections": [

@@ -10,3 +10,4 @@ Hyperion Racing Team’s [Stunts Mod Garage](https://hyperionracingteamwin.githu
 6. [Alpine A110 Berlinette — 1600 S (1970)](packs/alpine-a110-berlinette/) — custom cockpit, eleven paintjobs, installer/uninstaller and English/French documentation.
 7. [AMX Leclerc — V03](packs/amx-leclerc/) — French main battle tank, native LECL resources and digitized VGA artwork.
 8. [Tesla Cybertruck — CYBT FINAL](packs/tesla-cybertruck/) — ten named paintjobs, custom VGA cockpit and digitized VGA artwork.
+9. [Volkswagen Meteor Copa Truck — VMET V2](packs/volkswagen-meteor-copa-truck/) — 2026 Copa Truck, 16 paintjobs, rear cab brake lights, reversible Windows and DOS installers.

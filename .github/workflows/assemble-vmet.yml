@@ -1,0 +1,35 @@
+name: Assemble original VMET archive
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packs/volkswagen-meteor-copa-truck/parts/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Assemble and verify unmodified ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd packs/volkswagen-meteor-copa-truck
+          cat parts/*.part > VMET.zip
+          echo "d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45  VMET.zip" | sha256sum -c -
+          unzip -t VMET.zip
+      - name: Publish ZIP
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add packs/volkswagen-meteor-copa-truck/VMET.zip
+          git diff --cached --quiet && exit 0
+          git commit -m 'build(vmet): publish verified original VMET V2 ZIP'
+          git push

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VMET V2 — Download original ZIP</title>
+<style>body{background:#0a101d;color:#f2f5fa;font:16px/1.6 system-ui;padding:35px;max-width:700px;margin:auto}button{background:#f2c76f;color:#111;border:0;border-radius:9px;padding:15px 25px;font-weight:800;font-size:1rem;cursor:pointer}a{color:#67e8cf}small{color:#9aacc6}</style>
+<h1>Volkswagen Meteor Copa Truck · VMET V2</h1><p>Download the original 45,993-byte archive from its verified repository parts. This alternative works even if the GitHub automation has not finished assembling the direct ZIP.</p>
+<button id="download">Download VMET.zip</button><p id="status" role="status"></p><p><a href="../../index.html#volkswagen-meteor-copa-truck">Return to Stunts Mod Garage</a></p><small>Hyperion Racing Team · by Alain il Professore · 31 October 2026</small>
+<script>
+const parts=['00','01','02','03','04','05','06','07','08','09','10'];
+const expectedBytes=45993;
+document.querySelector('#download').addEventListener('click',async()=>{
+const button=document.querySelector('#download'),state=document.querySelector('#status');button.disabled=true;
+try{
+state.textContent='Downloading verified repository parts…';
+const blobs=[];
+for(const name of parts){const res=await fetch('parts/'+name+'.part',{cache:'no-store'});if(!res.ok)throw Error('Missing part '+name);blobs.push(await res.arrayBuffer());}
+const file=new Blob(blobs,{type:'application/zip'});if(file.size!==expectedBytes)throw Error('Unexpected archive size: '+file.size);
+const bytes=await crypto.subtle.digest('SHA-256',await file.arrayBuffer());
+const hash=Array.from(new Uint8Array(bytes)).map(n=>n.toString(16).padStart(2,'0')).join('');
+if(hash!=='d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45')throw Error('Integrity check failed');
+const url=URL.createObjectURL(file),a=document.createElement('a');a.href=url;a.download='VMET.zip';a.click();setTimeout(()=>URL.revokeObjectURL(url),15000);state.textContent='Checksum verified. Original archive downloaded.';
+}catch(err){state.textContent='Download failed: '+err.message;}finally{button.disabled=false;}
+});
+</script></html>
