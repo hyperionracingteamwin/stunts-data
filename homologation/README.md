@@ -18,6 +18,14 @@ The automatic report reader expects the same DynoLab report format as the first 
 
 If GitHub's public API is rate-limited or offline, the page falls back to the entries stored in `homologation/catalog.json`. For reliable fallback, add the new report's key numbers to that manifest as well.
 
+## Automatic thumbnails / Vignettes automatiques
+
+The public homologation catalogue also scans `homologation/thumbnails/` at each load or Refresh. When an image filename begins with the report's four-character code, it automatically displays a small clickable preview beside the car name.
+
+Recommended filenames: `VMET_VGA_320x200.png`, `ANSX_GAME.png`, `CYBT_COMPOSITE.png`. Accepted image formats: PNG, JPEG and WebP. Priority when several exist: VGA, GAME, COMPOSITE, bare code, REAL, BLUEPRINT, then other matching images. Images are shown only when available; missing thumbnails do not block reports.
+
+En français : déposer une image `CODE_VGA_320x200.png` ou `CODE_GAME.png` dans `homologation/thumbnails/`. La vignette apparaît automatiquement au prochain chargement du catalogue. Pour un affichage même sans accès à l'API GitHub, déclarer également `"thumbnail":"thumbnails/CODE_GAME.png"` dans `homologation/catalog.json`.
+
 ## Associate a video / Associer une vidéo YouTube
 
 In `homologation/catalog.json`, set the actual public video's URL (never a placeholder URL):

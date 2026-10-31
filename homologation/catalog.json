@@ -22,7 +22,8 @@
       "track": "TOPSTNT.TRK",
       "replay": "LANSX001.RPL",
       "reportPath": "reports/HRT_HOMOLOGATION_ANSX.html",
-      "youtubeUrl": "https://youtu.be/l_B17LbPx1M"
+      "youtubeUrl": "https://youtu.be/l_B17LbPx1M",
+      "thumbnail": "thumbnails/ANSX_GAME.png"
     },
     {
       "code": "P962",

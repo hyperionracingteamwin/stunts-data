@@ -394,7 +394,12 @@
       "sha256": "d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45",
       "archive_entries": 20,
       "download_enabled": true,
-      "notes": "Native binary validation passed; in-game DOSBox brake-lamp visibility verification remains pending."
+      "notes": "Native binary validation passed; in-game DOSBox brake-lamp visibility verification remains pending.",
+      "cover": "homologation/thumbnails/VMET_VGA_320x200.png",
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "VMET VGA ARTWORK · 320 × 200 · 256 COLORS",
+      "cover_alt": "Volkswagen Meteor Copa Truck VMET racing truck in original Stunts VGA artwork"
     }
   ],
   "replay_collections": [
