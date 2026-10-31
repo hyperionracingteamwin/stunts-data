@@ -52,14 +52,14 @@ function parseReport(html,path){
   const doc=new DOMParser().parseFromString(html,'text/html');
   const name=doc.querySelector('header h1')?.textContent?.trim()||path.split('/').pop();
   const meta=doc.querySelector('header p')?.textContent?.trim()||'';
-  const parts=meta.match(/(?:Homologation report|rapport)\s+([A-Z0-9]{4})\s*·\s*([^·]+)\s*·\s*(.+)/i);
+  const parts=meta.match(/(?:Homologation report|rapport(?:\s+d[’']homologation)?)\s+([A-Z0-9]{4})\s*·\s*([^·]+)\s*·\s*(.+)/i);
   const code=(parts?.[1]||path.match(/_([A-Z0-9]{4})\.html$/i)?.[1]||'????').toUpperCase();
   const stat={};
   doc.querySelectorAll('.stat').forEach(node=>{const label=node.querySelector('small')?.textContent?.trim().toLowerCase()||'';const value=node.querySelector('b')?.textContent?.trim()||'';if(label)stat[label]=value;});
   const get=(re)=>Object.entries(stat).find(([k])=>re.test(k))?.[1]||'';
   const lap=numeric(get(/topstunts|top stunts/));
   const trials=Array.from(doc.querySelectorAll('tbody tr'));
-  const done=trials.filter(tr=>/MEASURED|VALIDATED|PASSED/i.test(tr.lastElementChild?.textContent||'')).length;
+  const done=trials.filter(tr=>/MEASURED|VALIDATED|PASSED|MESURÉ/i.test(tr.lastElementChild?.textContent||'')).length;
   return {code,name,category:parts?.[2]?.trim()||'Unclassified',date:localDate(parts?.[3]?.trim()||''),lapSeconds:lap,maxLapMph:numeric(get(/v-max tour|lap max/)),averageLapMph:numeric(get(/moyenne sur circuit|average lap/)),topKph:numeric(get(/v-max banc|dyno top speed/)),acceleration100:numeric(get(/0.?100 km\/h/)),powerHp:numeric(get(/estimated power|puissance/)),testsPassed:done,testsTotal:trials.length,track:'TOPSTNT.TRK',replay:'',reportPath:path.replace(/^homologation\//,''),youtubeUrl:null};
 }
 function a(text,href){const e=document.createElement('a');e.textContent=text;e.href=href;e.className='link';return e;}
