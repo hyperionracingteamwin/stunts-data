@@ -1,14 +1,14 @@
-# 09 · Volkswagen Meteor Copa Truck 2026 — VMET V2
+# 09 · Volkswagen Meteor Copa Truck 2026 — VMET FINAL
 
-by **Alain il Professore — Hyperion Racing Team**, 31 October 2026.
+by **Alain il Professore — Hyperion Racing Team**, 1 November 2026.
 
 [Download the complete original VMET.zip](VMET.zip) · [Backup browser downloader](download.html) · [Stunts Mod Garage](../../index.html#volkswagen-meteor-copa-truck)
 
 ## What's inside
 
-This is the exact supplied ZIP (**45,993 bytes, 20 entries**) with four native Stunts 1.1 VGA resources: `CARVMET.RES`, `STVMET.3SH`, `STDAVMET.VSH`, `STDBVMET.VSH`. It also contains reversible installation tools for Windows and DOS/DOSBox, English/French/Russian guides and changelogs, and a native geometry audit.
+This is the exact supplied ZIP (**46,129 bytes, 20 entries**) with four native Stunts 1.1 VGA resources: `CARVMET.RES`, `STVMET.3SH`, `STDAVMET.VSH`, `STDBVMET.VSH`. It also contains reversible installation tools for Windows and DOS/DOSBox, English/French/Russian guides and changelogs, and a native geometry audit.
 
-The Volkswagen Meteor is modeled as a **2026 Copa Truck racing vehicle**, not a road-going freight truck. The V2 update corrects rear cab brake lamps that disappeared from some camera angles. Native brake trigger material 45 and all **16 paintjobs** are preserved, with the supplied car physics and dashboard unchanged.
+The Volkswagen Meteor is modeled as a **2026 Copa Truck racing vehicle**, not a road-going freight truck. The final uploaded archive retains the V2 rear-cab brake-lamp fix and **16 paintjobs**, and contains a **new `STVMET.3SH` 3D model and updated `CARVMET.RES` physics**. The dashboard files `STDAVMET.VSH` and `STDBVMET.VSH` are unchanged from the preceding release.
 
 ## Installation (English)
 
@@ -32,6 +32,10 @@ La validation des fichiers binaires est réussie ; **le test de conduite sous St
 
 Created by **Alain il Professore** for Hyperion Racing Team. Special thanks to **Victor Narl** for the challenge and **Ryoma** for Stunts modeling advice.
 
-SHA-256 of the unmodified creator ZIP: `d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45`.
+SHA-256 of the exact, unmodified uploaded **VMET FINAL.zip** (published as `VMET.zip`): `5a880710445578f25f3b560dc0a102dfdbb006fb9123696f574605799bdded89`.
 
-The `parts/` directory is a byte-accurate transport representation used during publication. The repository automation assembles the original ZIP and verifies its SHA-256 checksum.
+Updated resource hashes: `CARVMET.RES` — `d216f44f57ee5c96b979265c8a8f18c7b2dc9aaba50166aba332fe8d7fa6cbe9`; `STVMET.3SH` — `3dd206eb63d2370f2e4ef029902af904eaf3717313c29cf18a428d67eeb25d18`.
+
+**Note:** the creator ZIP's bundled `HASHES.TXT`, `AUDIT.JSN` and historic changelogs were preserved exactly as supplied and refer to the earlier geometry/physics; use the hashes above for the final updated resources.
+
+The legacy `parts/` directory documents the former V2 transfer; it is **not** the current release. To publish the final ZIP byte-for-byte without changing unrelated resources, `update_vmet_final.py` applies a compact verified delta from `final_delta/` to the previously released archive. GitHub Actions validates the exact final SHA-256 before committing `VMET.zip`.

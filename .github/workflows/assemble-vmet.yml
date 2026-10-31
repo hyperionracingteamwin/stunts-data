@@ -1,35 +1,36 @@
-name: Assemble original VMET archive
+name: Publish VMET FINAL verified ZIP
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - 'packs/volkswagen-meteor-copa-truck/parts/**'
+      - 'packs/volkswagen-meteor-copa-truck/final_delta/**'
+      - 'packs/volkswagen-meteor-copa-truck/update_vmet_final.py'
+      - '.github/workflows/assemble-vmet.yml'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  assemble:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out source
+      - name: Check out repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Assemble and verify unmodified ZIP
+      - name: Reconstruct exact uploaded ZIP
         shell: bash
         run: |
           set -euo pipefail
+          python3 packs/volkswagen-meteor-copa-truck/update_vmet_final.py
           cd packs/volkswagen-meteor-copa-truck
-          cat parts/*.part > VMET.zip
-          echo "d85f157772f82ca56cf1229c79ef493fb5c9d6378d4754857a24f81a300f5b45  VMET.zip" | sha256sum -c -
+          echo "5a880710445578f25f3b560dc0a102dfdbb006fb9123696f574605799bdded89  VMET.zip" | sha256sum -c -
           unzip -t VMET.zip
-      - name: Publish ZIP
+      - name: Commit final ZIP
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add packs/volkswagen-meteor-copa-truck/VMET.zip
           git diff --cached --quiet && exit 0
-          git commit -m 'build(vmet): publish verified original VMET V2 ZIP'
+          git commit -m 'build(vmet): publish original VMET FINAL ZIP (verified 46129 bytes)'
           git push
