@@ -1,0 +1,13 @@
+{
+  "id": "P962",
+  "reportName": "Porsche 962",
+  "testDate": "2026-10-31",
+  "dynolabVersion": "V4",
+  "reportSha256": "393a0eb3caeb9370adeee9e1729d64fb28d095d9d1e0899bf179069d6052adae",
+  "modelSha256": "e705f58dbe0e0416dd69798fa55d538c2660f200473515e4a5a4dbac4dd9d4f1",
+  "videoRushSha256": "ce2e4a728ca98cf7949d32e0ea73b38ef2023ef329011588c13bf18a495b1260",
+  "reportStatus": "7/7",
+  "youtubeUrl": null,
+  "thumbnailStatus": "pending",
+  "note": "Performance data from experimental CAR*.RES simulation; timings and power estimates as in original report."
+}

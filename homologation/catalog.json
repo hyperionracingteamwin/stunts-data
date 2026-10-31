@@ -23,6 +23,23 @@
       "replay": "LANSX001.RPL",
       "reportPath": "reports/HRT_HOMOLOGATION_ANSX.html",
       "youtubeUrl": "https://youtu.be/l_B17LbPx1M"
+    },
+    {
+      "code": "P962",
+      "name": "Porsche 962",
+      "category": "Hypercar",
+      "date": "2026-10-31",
+      "lapSeconds": 111.45,
+      "maxLapMph": 167,
+      "averageLapMph": 112.2,
+      "topKph": 341.01,
+      "acceleration100": 4.75,
+      "powerHp": 446,
+      "testsPassed": 7,
+      "testsTotal": 7,
+      "track": "TOPSTNT.TRK",
+      "replay": "LP962001.RPL",
+      "reportPath": "reports/HRT_HOMOLOGATION_P962.html"
     }
   ]
 }
