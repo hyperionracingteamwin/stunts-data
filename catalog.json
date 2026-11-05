@@ -400,6 +400,62 @@
       "cover_height": 200,
       "cover_caption": "VMET VGA ARTWORK · 320 × 200 · 256 COLORS",
       "cover_alt": "Volkswagen Meteor Copa Truck VMET racing truck in original Stunts VGA artwork"
+    },
+    {
+      "id": "morrocan-petit-taxi",
+      "number": "10",
+      "title": "MORROCAN PETIT TAXI",
+      "subtitle": "Peugeot 205 taxi · P205",
+      "car": "Peugeot 205 Petit Taxi",
+      "description": "Peugeot 205 taxi with six Moroccan city liveries.",
+      "archive": "packs/morrocan-petit-taxi/P205.zip",
+      "cover": "packs/morrocan-petit-taxi/cover.png",
+      "bitmap": "packs/morrocan-petit-taxi/cover.bmp",
+      "version": "1.0.0",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "6 paintjobs",
+        "P205",
+        "Windows / DOSBox"
+      ],
+      "install": "Close Stunts and extract the ZIP into P205PACK inside the game directory. Run INSTWIN.CMD on Windows or INSTDOS.BAT in DOSBox. To restore, use UNWIN.CMD or UNDDOS.BAT in the same folder. Keep BACKUP until restoration finishes.",
+      "bytes": 21987,
+      "sha256": "08cc4b23da90bb03f9a5109cc2ff21f1ba3722c1a120f648c3d17a09322f70e3",
+      "archive_entries": 11,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "P205 VGA ARTWORK · 320 × 200 · 256 COLORS",
+      "cover_alt": "VGA pixel art of the red Peugeot 205 Petit Taxi on a road at sunset.",
+      "download_enabled": true
+    },
+    {
+      "id": "bironetta-sexo",
+      "number": "11",
+      "title": "BIRONETTA SEXO",
+      "subtitle": "Midnight Plug 69 Special · SEXO",
+      "car": "Bironetta SEXO",
+      "description": "The Midnight Plug 69 Special concept with six liveries, a five-speed gearbox and a digital VGA cockpit.",
+      "archive": "packs/bironetta-sexo/SEXO.zip",
+      "cover": "packs/bironetta-sexo/cover.png",
+      "bitmap": "packs/bironetta-sexo/cover.bmp",
+      "version": "1.0.0",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "6 paintjobs",
+        "SEXO",
+        "Windows / DOSBox"
+      ],
+      "install": "Close Stunts and extract the ZIP into SEXOPACK inside the game directory. Run INSTWIN.CMD on Windows or INSTDOS.BAT in DOSBox. To restore, use UNWIN.CMD or UNDDOS.BAT in the same folder. Keep BACKUP until restoration finishes.",
+      "bytes": 33669,
+      "sha256": "f0de45e9b425035a363db834e8bb7a9e91e62cb496d3d0cfbaf30c9414751bc6",
+      "archive_entries": 11,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "SEXO VGA ARTWORK · 320 × 200 · 256 COLORS",
+      "cover_alt": "VGA pixel art of the purple and yellow Bironetta SEXO on a mountain road at night.",
+      "download_enabled": true
     }
   ],
   "replay_collections": [
