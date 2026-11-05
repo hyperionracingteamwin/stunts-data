@@ -1,4 +1,16 @@
-# CHANGELOG · MORROCAN PETIT TAXI
+# CHANGELOG · MOROCCAN PETIT TAXI
+
+## 1.0.1 · 2026-11-06
+
+### Français
+
+- Graphie **Moroccan Petit Taxi** corrigée dans le garage, la documentation, la vignette et le nom affiché dans Stunts.
+- Empreintes SHA-256 recalculées après la mise à jour des deux champs de texte de `CARP205.RES`.
+
+### English
+
+- Corrected **Moroccan Petit Taxi** across the garage, documentation, cover art and the in-game name.
+- Recomputed SHA-256 checksums after updating the two text fields in `CARP205.RES`.
 
 ## 1.0.0 · 2026-11-05
 

@@ -402,16 +402,16 @@
       "cover_alt": "Volkswagen Meteor Copa Truck VMET racing truck in original Stunts VGA artwork"
     },
     {
-      "id": "morrocan-petit-taxi",
+      "id": "moroccan-petit-taxi",
       "number": "10",
-      "title": "MORROCAN PETIT TAXI",
+      "title": "MOROCCAN PETIT TAXI",
       "subtitle": "Peugeot 205 taxi · P205",
-      "car": "Peugeot 205 Petit Taxi",
+      "car": "Moroccan Petit Taxi",
       "description": "Peugeot 205 taxi with six Moroccan city liveries.",
-      "archive": "packs/morrocan-petit-taxi/P205.zip",
-      "cover": "packs/morrocan-petit-taxi/cover.png",
-      "bitmap": "packs/morrocan-petit-taxi/cover.bmp",
-      "version": "1.0.0",
+      "archive": "packs/moroccan-petit-taxi/P205.zip",
+      "cover": "packs/moroccan-petit-taxi/cover.png",
+      "bitmap": "packs/moroccan-petit-taxi/cover.bmp",
+      "version": "1.0.1",
       "platform": "Stunts 1.1 VGA · Windows / DOSBox",
       "author": "Alain il Professore · Hyperion Racing Team",
       "tags": [
@@ -420,13 +420,13 @@
         "Windows / DOSBox"
       ],
       "install": "Close Stunts and extract the ZIP into P205PACK inside the game directory. Run INSTWIN.CMD on Windows or INSTDOS.BAT in DOSBox. To restore, use UNWIN.CMD or UNDDOS.BAT in the same folder. Keep BACKUP until restoration finishes.",
-      "bytes": 21987,
-      "sha256": "08cc4b23da90bb03f9a5109cc2ff21f1ba3722c1a120f648c3d17a09322f70e3",
+      "bytes": 22401,
+      "sha256": "8e6455c665f1c07b2458971a8e37bb29399bf3f1f39c1509dd1557a1debe5dc5",
       "archive_entries": 11,
       "cover_width": 320,
       "cover_height": 200,
       "cover_caption": "P205 VGA ARTWORK · 320 × 200 · 256 COLORS",
-      "cover_alt": "VGA pixel art of the red Peugeot 205 Petit Taxi on a road at sunset.",
+      "cover_alt": "VGA pixel art of the red Moroccan Petit Taxi on a road at sunset.",
       "download_enabled": true
     },
     {
