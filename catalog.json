@@ -456,6 +456,36 @@
       "cover_caption": "SEXO VGA ARTWORK · 320 × 200 · 256 COLORS",
       "cover_alt": "VGA pixel art of the purple and yellow Bironetta SEXO on a mountain road at night.",
       "download_enabled": true
+    },
+    {
+      "id": "aptera-solar-ev",
+      "number": "12",
+      "title": "Aptera Solar EV",
+      "subtitle": "APTR · V69 exterior / V68 cockpit · 1.0 RC",
+      "car": "Aptera Solar EV",
+      "description": "An unofficial three-wheel solar-EV-inspired Stunts car with eight paintjobs, a VGA digital cockpit, updated V69 wheel fairings, and reversible DOS/Windows installers. Static binary audit passed; full Stunts 1.1 gameplay testing is still pending.",
+      "archive": "packs/aptera-solar-ev/APTERA_APTR_V69_RC.zip",
+      "cover": "packs/aptera-solar-ev/cover.png",
+      "version": "1.0 RC (V69 exterior / V68 cockpit)",
+      "platform": "Stunts 1.1 VGA · DOSBox / Windows",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "APTR",
+        "8 paintjobs",
+        "V69 fairings",
+        "Digital cockpit",
+        "DOS / Windows"
+      ],
+      "install": "Extract the ZIP into your Stunts root (so STUNTS/APTERA/FILES exists). On Windows run APTERA/INSTALL.CMD; in DOSBox use APTERA/INSTALL.BAT. Restore with the corresponding UNINST script. Keep APTERA/BACKUP until restoration is complete.",
+      "bytes": 34994,
+      "sha256": "27ce3bbb2728ad68e29bc49251be5fe8cc9172695905f795b03bf8e035df246c",
+      "archive_entries": 16,
+      "download_enabled": true,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "AUTHENTIC STUNTS REPLAY · ECO COUSIN · VGA-STYLE PROMO",
+      "cover_alt": "Authentic Stunts road replay featuring the Aptera-shaped APTR car, with Eco Cousin title graphics.",
+      "notes": "Creator-supplied release candidate assembled 8 Nov 2026. Source ZIP published unchanged. Resource headers/paintjobs audited statically; full original-DOS gameplay/installer test not performed. The Stung's eco-cousin video has been prepared but is not yet publicly uploaded to YouTube."
     }
   ],
   "replay_collections": [

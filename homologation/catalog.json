@@ -61,6 +61,25 @@
       "reportPath": "reports/HRT_HOMOLOGATION_VMET.html",
       "youtubeUrl": "https://www.youtube.com/watch?v=XEoBM7f-GtA",
       "thumbnail": "thumbnails/VMET_VGA_320x200.png"
+    },
+    {
+      "code": "APTR",
+      "name": "Aptera Solar EV",
+      "category": "Supercar",
+      "date": "2026-11-08",
+      "lapSeconds": 133.9,
+      "maxLapMph": 103.4,
+      "averageLapMph": 92.9,
+      "topKph": 162.7,
+      "acceleration100": 4.85,
+      "powerHp": 348,
+      "testsPassed": 6,
+      "testsTotal": 7,
+      "track": "TOPSTNT.TRK",
+      "replay": "LAPTR001.RPL",
+      "reportPath": "reports/HRT_HOMOLOGATION_APTR.html",
+      "thumbnail": "thumbnails/APTR_VGA_320x200.png",
+      "note": "7 protocols completed; 0–200–0 km/h target not achieved. Bench figures are model estimates, not verified energy consumption. LAPTR001.RPL cited in report but not distributed in the car ZIP."
     }
   ]
 }
