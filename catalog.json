@@ -483,8 +483,8 @@
       "download_enabled": true,
       "cover_width": 320,
       "cover_height": 200,
-      "cover_caption": "AUTHENTIC STUNTS REPLAY · ECO COUSIN · VGA-STYLE PROMO",
-      "cover_alt": "Authentic Stunts road replay featuring the Aptera-shaped APTR car, with Eco Cousin title graphics.",
+      "cover_caption": "APTERA VGA ARTWORK · 320 × 200 · 256 COLORS",
+      "cover_alt": "VGA pixel-art illustration of the silver three-wheeled APTR Aptera with turquoise canopy on a Stunts track.",
       "notes": "Creator-supplied release candidate assembled 8 Nov 2026. Source ZIP published unchanged. Resource headers/paintjobs audited statically; full original-DOS gameplay/installer test not performed. The Stung's eco-cousin video has been prepared but is not yet publicly uploaded to YouTube."
     }
   ],
