@@ -5,7 +5,7 @@
 **Creator:** Alain il Professore — Hyperion Racing Team  
 **Languages in ZIP:** English, French, Russian
 
-[Download Aptera ZIP](./APTERA_APTR_V69_RC.zip) · [DynoLab homologation report](../../homologation/reports/HRT_HOMOLOGATION_APTR.html)
+[Download Aptera ZIP](./APTERA_APTR_V69_RC.zip) · [DynoLab homologation report](../../homologation/reports/HRT_HOMOLOGATION_APTR.html) · [Watch THE STUNG's Aptera video test](https://youtu.be/1kbZB-w-qUY)
 
 ## Included in the source ZIP
 
