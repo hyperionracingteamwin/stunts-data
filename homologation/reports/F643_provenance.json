@@ -33,5 +33,27 @@
     "summary_seconds": 2.16,
     "protocol04_seconds": 2.2
   },
-  "benchmark_rerun_for_publication": false
+  "benchmark_rerun_for_publication": false,
+  "published_archive_sha256": "675d5a93e9e828617b3dfd1b8779d6c501db70fae6fd36635aec9fff037ea5e6",
+  "published_archive_bytes": 4241509,
+  "published_archive_entries": 55,
+  "published_binary_sha256": {
+    "CARF643.RES": "63228354831ec09ec9c5ee8ce85dffd7e4a2f501b3b13cdd5692023b571170af",
+    "STF643.3SH": "e89d64a8e6901c9fcd69032896f88b9a4166c6d28146e0dee6db2a01bc839c70",
+    "STDAF643.VSH": "99907e0da4dd79f2aa25cc9654a1e1d939d3a92e4964cb771794f0ba8d5fd2fe",
+    "STDBF643.VSH": "0b622d9b0eb5ca6b3b836c78771b879eb008bd163ea8c7829d1ed1bbda3757c7"
+  },
+  "published_manifest_entries_verified": 54,
+  "text_fix": {
+    "date": "2026-11-11",
+    "change": "Final ] added before edes NUL terminator; all seven lines and author credit retained.",
+    "simd_unchanged": true,
+    "gnam_unchanged": true,
+    "gsna_unchanged": true,
+    "graphics_unchanged": true,
+    "portable_rebuild": "All four binaries identical",
+    "runtime_test": false,
+    "report_results_unchanged": true,
+    "original_source_hashes_retained": true
+  }
 }

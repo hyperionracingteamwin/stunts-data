@@ -2,7 +2,7 @@
 
 By Alain il Professore — Hyperion Racing Team · 11 November 2026
 
-[Download original V14 ZIP](./FERRARI_643_F1_1991_V14.zip) · [DynoLab benchmark](../../homologation/reports/HRT_HOMOLOGATION_F643.html) · [Watch THE STUNG](https://youtu.be/r-lxtuEWlEw) · [Benchmark replay](../../homologation/replays/LF643001.RPL)
+[Download V14 ZIP](./FERRARI_643_F1_1991_V14.zip) · [DynoLab benchmark](../../homologation/reports/HRT_HOMOLOGATION_F643.html) · [Watch THE STUNG](https://youtu.be/r-lxtuEWlEw) · [Benchmark replay](../../homologation/replays/LF643001.RPL)
 
 ![Ferrari 643 VGA render](./cover.png)
 
@@ -22,8 +22,12 @@ Estimated bench V-Max: 331.01 km/h (331.0 in the summary); estimated power: 1,46
 
 ## Source integrity and thumbnail
 
-The original user-supplied ZIP is preserved byte for byte: 4,233,573 bytes, 54 entries. SHA-256: `fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72`.
+The V14 pack was updated on 11 November 2026 to fix the last line of the in-game description. CARF643.RES now ends its edes text with `by Alain il Professore]` followed by the NUL terminator. The menu draws each line when it reaches `]`; the former missing final separator hid the author credit.
 
-52 entries in CONTENTS_SHA256.txt match. CARF643.RES differs from the hash recorded in both CONTENTS_SHA256.txt and AUDIT_V14.json; its actual SHA-256 is `2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3`. This mismatch is caused by an expanded in-game description: restoring the V13 description reproduces the expected manifest hash exactly. The first 524 simulation bytes remain identical to V13. The three current graphics binaries match their audit hashes. The ZIP and its internal records are preserved unchanged, with this discrepancy documented separately.
+Only the description resource and container length changed in CARF643.RES. Its simd, gnam and gsna resources are byte-identical to the previously published pack, and all three graphics files are unchanged. The original benchmark remains applicable to the same simulation parameters.
+
+The current ZIP contains 55 entries and 4,241,509 bytes. SHA-256: `675d5a93e9e828617b3dfd1b8779d6c501db70fae6fd36635aec9fff037ea5e6`. Updated CARF643.RES SHA-256: `63228354831ec09ec9c5ee8ce85dffd7e4a2f501b3b13cdd5692023b571170af`. All 54 internal manifest entries match, and the portable builder was rerun and reproduced all four shipped binaries. Original validation results are retained; the text-fix validation is in EDES_FIX_VALIDATION.json. No new full DOSBox playtest was performed.
+
+Original source ZIP SHA-256 (before the text fix): `fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72`. It had a stale CAR hash because its in-game description had already been expanded. The current audit and manifest record the corrected file.
 
 The 320 × 200 PNG and BMP are indexed 8-bit images with a 256-entry palette. The car is rendered from the supplied, unchanged car0 geometry and paintjob 0 using the included native projection queue and Stressed palette/material tables. The circuit background is illustrative; this image is not a DOSBox screenshot.
