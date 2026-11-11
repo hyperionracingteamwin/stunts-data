@@ -34,16 +34,16 @@
     "protocol04_seconds": 2.2
   },
   "benchmark_rerun_for_publication": false,
-  "published_archive_sha256": "675d5a93e9e828617b3dfd1b8779d6c501db70fae6fd36635aec9fff037ea5e6",
-  "published_archive_bytes": 4241509,
-  "published_archive_entries": 55,
+  "published_archive_sha256": "295138315d968a312f3e301d47938b8f7f4a6d7ed40ba9e200dcf6eceeeeb189",
+  "published_archive_bytes": 4244625,
+  "published_archive_entries": 56,
   "published_binary_sha256": {
     "CARF643.RES": "63228354831ec09ec9c5ee8ce85dffd7e4a2f501b3b13cdd5692023b571170af",
     "STF643.3SH": "e89d64a8e6901c9fcd69032896f88b9a4166c6d28146e0dee6db2a01bc839c70",
-    "STDAF643.VSH": "99907e0da4dd79f2aa25cc9654a1e1d939d3a92e4964cb771794f0ba8d5fd2fe",
+    "STDAF643.VSH": "8f0e34d5246cccd0335fbb9ab844420e78821b2ff231221f4fcdb7f8fe67a6e9",
     "STDBF643.VSH": "0b622d9b0eb5ca6b3b836c78771b879eb008bd163ea8c7829d1ed1bbda3757c7"
   },
-  "published_manifest_entries_verified": 54,
+  "published_manifest_entries_verified": 55,
   "text_fix": {
     "date": "2026-11-11",
     "change": "Final ] added before edes NUL terminator; all seven lines and author credit retained.",
@@ -55,5 +55,40 @@
     "runtime_test": false,
     "report_results_unchanged": true,
     "original_source_hashes_retained": true
+  },
+  "roof_fix": {
+    "source_sha256": "99907e0da4dd79f2aa25cc9654a1e1d939d3a92e4964cb771794f0ba8d5fd2fe",
+    "corrected_sha256": "8f0e34d5246cccd0335fbb9ab844420e78821b2ff231221f4fcdb7f8fe67a6e9",
+    "source_bytes": 63534,
+    "corrected_bytes": 63509,
+    "removed_resources": [
+      "roof"
+    ],
+    "changed_retained_resources": [],
+    "source_roof": {
+      "w": 1,
+      "h": 1,
+      "ax": 0,
+      "ay": 0,
+      "x": 319,
+      "y": 199,
+      "controls": "01020408",
+      "sha256": "0dbb52e8ca8dd41b2d634f4bc433ffef1770ee481609d530320bcdc6a06617ed"
+    },
+    "viewport_top_before": 1,
+    "viewport_top_after": 0,
+    "top_scanline_redrawn_after_fix": true,
+    "retained_resource_count": 14,
+    "all_retained_blocks_byte_identical": true,
+    "INS2_and_GBOX_unchanged": true,
+    "wheels_unchanged": true,
+    "DAST_DASM_unchanged": true,
+    "native_masks_valid": true,
+    "source_file_overwritten": false,
+    "validation": "Original engine roof-height and viewport-top rule reproduced; all retained binary resource blocks compared. No live DOSBox run.",
+    "reference_cars_without_roof": [
+      "Porsche March Indy (PMIN)",
+      "Williams Renault FW12"
+    ]
   }
 }
