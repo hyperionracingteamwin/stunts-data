@@ -508,9 +508,9 @@
         "Windows / DOSBox"
       ],
       "install": "Extract FERRARI_643_F1_1991_V14 as a subfolder of Stunts. Close the game. Run INSTALL_WIN.CMD on Windows or INSTALL.BAT from the package folder in DOS/DOSBox. Restore with REMOVE_WIN.CMD or REMOVE.BAT. Install all four resources together and retain backups.",
-      "bytes": 4233573,
-      "sha256": "fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72",
-      "archive_entries": 54,
+      "bytes": 4241509,
+      "sha256": "675d5a93e9e828617b3dfd1b8779d6c501db70fae6fd36635aec9fff037ea5e6",
+      "archive_entries": 55,
       "download_enabled": true,
       "cover_width": 320,
       "cover_height": 200,
@@ -518,7 +518,8 @@
       "cover_alt": "Red Ferrari 643 F643 rendered from the supplied Stunts 3D model on an illustrated circuit, in 320 by 200 VGA pixels.",
       "youtubeUrl": "https://youtu.be/r-lxtuEWlEw",
       "reportPath": "homologation/reports/HRT_HOMOLOGATION_F643.html",
-      "notes": "Exact creator-supplied V14 ZIP preserved unchanged. Native projection and static cockpit checks are documented in the archive; they are not a new full DOSBox playtest. Benchmark estimates and autonomous Restunts lap use the supplied 11 November 2026 DynoLab report."
+      "notes": "V14 updated 11 Nov 2026: the full edes description ends with a closing line separator so the original menu displays the author credit. Only description text and resource-container metadata changed; simd and the three graphics binaries are unchanged. Internal checksums and portable rebuild sources updated; no new full DOSBox playtest.",
+      "revision": "V14 edes text fix · 2026-11-11"
     }
   ],
   "replay_collections": [
