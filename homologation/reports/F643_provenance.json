@@ -1,0 +1,39 @@
+{
+  "code": "F643",
+  "date": "2026-11-11",
+  "source_archive_sha256": "fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72",
+  "source_archive_bytes": 4233573,
+  "source_archive_entries": 54,
+  "source_manifest_entries_verified": 52,
+  "source_manifest_mismatches": [
+    {
+      "file": "CARF643.RES",
+      "expected_sha256": "cbb9cd087490c2366c3d2b5bbe26c55a8475df7c0281ed506b1f91d510810e21",
+      "actual_sha256": "2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3",
+      "cause": "Expanded edes in-game description; restoring the V13 description reproduces the expected manifest hash exactly."
+    }
+  ],
+  "audit_hash_mismatches": [
+    "CARF643.RES"
+  ],
+  "source_report_sha256": "7c4d7796c78a93c7c70beb0b7c5e4ed9739ff5924ea03204bfe63c225f10225a",
+  "source_replay_sha256": "3aa11c2406d1cd4b7c1ac34791e4d724fa480b410cf16c87d1bf753d16064e8b",
+  "source_binary_sha256": {
+    "CARF643.RES": "2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3",
+    "STF643.3SH": "e89d64a8e6901c9fcd69032896f88b9a4166c6d28146e0dee6db2a01bc839c70",
+    "STDAF643.VSH": "99907e0da4dd79f2aa25cc9654a1e1d939d3a92e4964cb771794f0ba8d5fd2fe",
+    "STDBF643.VSH": "0b622d9b0eb5ca6b3b836c78771b879eb008bd163ea8c7829d1ed1bbda3757c7"
+  },
+  "youtubeUrl": "https://youtu.be/r-lxtuEWlEw",
+  "youtube_oembed_title": "Stunts Ferrari 643 Il Camion Meets Crystal Light Aerobics  The Stung",
+  "youtube_oembed_author": "Hyperion Racing Team",
+  "report_data_modified": false,
+  "report_additions": "download/video/replay links, discrepancy note and navigation only",
+  "acceleration_source_discrepancy": {
+    "summary_seconds": 2.16,
+    "protocol04_seconds": 2.2
+  },
+  "benchmark_rerun_for_publication": false,
+  "latest_separately_supplied_car_sha256": "2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3",
+  "latest_car_identical_to_zip": true
+}

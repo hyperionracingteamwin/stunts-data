@@ -1,0 +1,19 @@
+{
+  "vehicle_code": "F643",
+  "source_3sh_sha256": "e89d64a8e6901c9fcd69032896f88b9a4166c6d28146e0dee6db2a01bc839c70",
+  "geometry": "unchanged car0, paintjob 0",
+  "render_method": "source-supplied native C transform/draw queue via WASI, polygon and wheel rasterization with source Stressed material and VGA palette tables",
+  "native_camera": {
+    "yaw": 384,
+    "pitch": 64,
+    "angle_units_per_turn": 1024
+  },
+  "size": [
+    320,
+    200
+  ],
+  "image_mode": "P",
+  "palette_entries": 256,
+  "scene": "illustrated fictional circuit, not a gameplay screenshot",
+  "homologation_results_modified": false
+}
