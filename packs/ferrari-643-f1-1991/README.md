@@ -2,7 +2,7 @@
 
 By Alain il Professore — Hyperion Racing Team · 11 November 2026
 
-[Download original V14 ZIP](./FERRARI_643_F1_1991_V14.zip) · [DynoLab benchmark](../../homologation/reports/HRT_HOMOLOGATION_F643.html) · [Watch THE STUNG](https://youtu.be/r-lxtuEWlEw) · [Benchmark replay](../../homologation/replays/LF643001.RPL)
+[Download original V14 ZIP](./FERRARI_643_F1_1991_V14.zip) · [Latest CARF643.RES](./CARF643.RES) · [DynoLab benchmark](../../homologation/reports/HRT_HOMOLOGATION_F643.html) · [Watch THE STUNG](https://youtu.be/r-lxtuEWlEw) · [Benchmark replay](../../homologation/replays/LF643001.RPL)
 
 ![Ferrari 643 VGA render](./cover.png)
 
@@ -23,6 +23,8 @@ Estimated bench V-Max: 331.01 km/h (331.0 in the summary); estimated power: 1,46
 ## Source integrity and thumbnail
 
 The original user-supplied ZIP is preserved byte for byte: 4,233,573 bytes, 54 entries. SHA-256: `fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72`.
+
+The latest separately supplied CARF643.RES was checked byte for byte and is identical to the copy already inside this ZIP. It is also available above as an individual download; use it with the matching V14 graphics resources.
 
 52 entries in CONTENTS_SHA256.txt match. CARF643.RES differs from the hash recorded in both CONTENTS_SHA256.txt and AUDIT_V14.json; its actual SHA-256 is `2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3`. This mismatch is caused by an expanded in-game description: restoring the V13 description reproduces the expected manifest hash exactly. The first 524 simulation bytes remain identical to V13. The three current graphics binaries match their audit hashes. The ZIP and its internal records are preserved unchanged, with this discrepancy documented separately.
 

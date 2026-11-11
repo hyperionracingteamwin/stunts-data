@@ -33,5 +33,7 @@
     "summary_seconds": 2.16,
     "protocol04_seconds": 2.2
   },
-  "benchmark_rerun_for_publication": false
+  "benchmark_rerun_for_publication": false,
+  "latest_separately_supplied_car_sha256": "2368a60a1b2751a76d99f3491b2b061b61aabe66f69b07453c5b64f800933ef3",
+  "latest_car_identical_to_zip": true
 }
