@@ -81,6 +81,27 @@
       "youtubeUrl": "https://youtu.be/1kbZB-w-qUY",
       "thumbnail": "thumbnails/APTR_VGA_320x200.png",
       "note": "7 protocols completed; 0–200–0 km/h target not achieved. Bench figures are model estimates, not verified energy consumption. LAPTR001.RPL cited in report but not distributed in the car ZIP."
+    },
+    {
+      "code": "F643",
+      "name": "Ferrari 643 F1-91",
+      "category": "Prototype extrême",
+      "date": "2026-11-11",
+      "lapSeconds": 105.55,
+      "maxLapMph": 190.7,
+      "averageLapMph": 118.5,
+      "topKph": 331.0,
+      "acceleration100": 2.16,
+      "powerHp": 1468,
+      "testsPassed": 7,
+      "testsTotal": 7,
+      "track": "TOPSTNT.TRK",
+      "replay": "LF643001.RPL",
+      "replayPath": "replays/LF643001.RPL",
+      "reportPath": "reports/HRT_HOMOLOGATION_F643.html",
+      "youtubeUrl": "https://youtu.be/r-lxtuEWlEw",
+      "thumbnail": "thumbnails/F643_VGA_320x200.png",
+      "note": "7 protocols completed; no targets missed. Source report summary gives 0–100 km/h as 2.16 s; detailed 0–100–0 km/h protocol gives 2.20 s. Both retained unchanged. Bench figures are model estimates. 105.55 s is the autonomous Restunts benchmark, not a separately timed YouTube lap."
     }
   ]
 }

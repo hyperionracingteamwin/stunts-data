@@ -486,6 +486,39 @@
       "cover_caption": "APTERA VGA ARTWORK · 320 × 200 · 256 COLORS",
       "cover_alt": "VGA pixel-art illustration of the silver three-wheeled APTR Aptera with turquoise canopy on a Stunts track.",
       "notes": "Creator-supplied release candidate assembled 8 Nov 2026. Source ZIP published unchanged. Resource headers/paintjobs audited statically; full original-DOS gameplay/installer test not performed. The Stung's eco-cousin video has been prepared but is not yet publicly uploaded to YouTube."
+    },
+    {
+      "id": "ferrari-643-f1-1991",
+      "number": "13",
+      "title": "Ferrari 643 F1 1991",
+      "subtitle": "F643 · V14 · Eleven paintjobs",
+      "car": "Ferrari 643 F1-91",
+      "description": "The 1991 Ferrari 643 joins Stunts with eleven paintjobs and a custom VGA cockpit. V14 improves helmet sorting and the gear-display refresh. Includes the original four resources, reversible Windows/DOS installers, development sources and multilingual documentation.",
+      "archive": "packs/ferrari-643-f1-1991/FERRARI_643_F1_1991_V14.zip",
+      "cover": "packs/ferrari-643-f1-1991/cover.png",
+      "bitmap": "packs/ferrari-643-f1-1991/cover.bmp",
+      "version": "14",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "F643",
+        "1991 Formula 1",
+        "11 paintjobs",
+        "Custom VGA cockpit",
+        "Windows / DOSBox"
+      ],
+      "install": "Extract FERRARI_643_F1_1991_V14 as a subfolder of Stunts. Close the game. Run INSTALL_WIN.CMD on Windows or INSTALL.BAT from the package folder in DOS/DOSBox. Restore with REMOVE_WIN.CMD or REMOVE.BAT. Install all four resources together and retain backups.",
+      "bytes": 4233573,
+      "sha256": "fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72",
+      "archive_entries": 54,
+      "download_enabled": true,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "F643 · SOURCE-DERIVED VGA RENDER · 320 × 200 · 256 COLORS",
+      "cover_alt": "Red Ferrari 643 F643 rendered from the supplied Stunts 3D model on an illustrated circuit, in 320 by 200 VGA pixels.",
+      "youtubeUrl": "https://youtu.be/r-lxtuEWlEw",
+      "reportPath": "homologation/reports/HRT_HOMOLOGATION_F643.html",
+      "notes": "Exact creator-supplied V14 ZIP preserved unchanged. Native projection and static cockpit checks are documented in the archive; they are not a new full DOSBox playtest. Benchmark estimates and autonomous Restunts lap use the supplied 11 November 2026 DynoLab report."
     }
   ],
   "replay_collections": [
