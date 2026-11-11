@@ -24,10 +24,16 @@ Estimated bench V-Max: 331.01 km/h (331.0 in the summary); estimated power: 1,46
 
 The V14 pack was updated on 11 November 2026 to fix the last line of the in-game description. CARF643.RES now ends its edes text with `by Alain il Professore]` followed by the NUL terminator. The menu draws each line when it reaches `]`; the former missing final separator hid the author credit.
 
-Only the description resource and container length changed in CARF643.RES. Its simd, gnam and gsna resources are byte-identical to the previously published pack, and all three graphics files are unchanged. The original benchmark remains applicable to the same simulation parameters.
+Only the description resource and container length changed in CARF643.RES. Its simd, gnam and gsna resources are byte-identical to the previously published pack, and STDBF643.VSH and STF643.3SH are unchanged. The STDA roof-only follow-up is described below. The original benchmark remains applicable to the same simulation parameters.
 
-The current ZIP contains 55 entries and 4,241,509 bytes. SHA-256: `675d5a93e9e828617b3dfd1b8779d6c501db70fae6fd36635aec9fff037ea5e6`. Updated CARF643.RES SHA-256: `63228354831ec09ec9c5ee8ce85dffd7e4a2f501b3b13cdd5692023b571170af`. All 54 internal manifest entries match, and the portable builder was rerun and reproduced all four shipped binaries. Original validation results are retained; the text-fix validation is in EDES_FIX_VALIDATION.json. No new full DOSBox playtest was performed.
+The current ZIP contains 56 entries and 4,244,625 bytes. SHA-256: `295138315d968a312f3e301d47938b8f7f4a6d7ed40ba9e200dcf6eceeeeb189`. Updated CARF643.RES SHA-256: `63228354831ec09ec9c5ee8ce85dffd7e4a2f501b3b13cdd5692023b571170af`. All 55 internal manifest entries match, and the portable builder was rerun and reproduced all four shipped binaries. Original validation results are retained; the text-fix validation is in EDES_FIX_VALIDATION.json. No new full DOSBox playtest was performed.
 
 Original source ZIP SHA-256 (before the text fix): `fb6550394cea48327bf7463dc2f1835c1bc7388190d329d12c4e3ff3682cfb72`. It had a stale CAR hash because its in-game description had already been expanded. The current audit and manifest record the corrected file.
 
 The 320 × 200 PNG and BMP are indexed 8-bit images with a 256-entry palette. The car is rendered from the supplied, unchanged car0 geometry and paintjob 0 using the included native projection queue and Stressed palette/material tables. The circuit background is illustrative; this image is not a DOSBox screenshot.
+
+## Open-cockpit top scanline fix
+
+The dummy 1 × 1 roof bitmap at (319,199) was removed from STDAF643.VSH. The original engine reserves roof height at the top of the viewport, even when the bitmap is positioned elsewhere; that left screen row 0 unrefreshed. Without roof, the 3D viewport starts at y=0, as for PMIN and FW12.
+
+All 14 retained STDA blocks are byte-identical, including dash, dast/dasm, ins2, gbox and the wheel states. CARF643.RES (including the complete edes), STDB and 3SH are unchanged from the prior published pack. Native mask checks and a portable rebuild passed. The engine rule was checked in the original disassembly; no live DOSBox screenshot is claimed.
