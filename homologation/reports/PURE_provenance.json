@@ -1,0 +1,682 @@
+{
+  "code": "PURE",
+  "date": "2026-11-13",
+  "resource_changes": false,
+  "installers_executed": false,
+  "original_GAME_EXE_test_performed": false,
+  "checksums": {
+    "PAYLOAD_SHA256.json": {
+      "entries": 4,
+      "mismatches": []
+    },
+    "SHA256SUMS.json": {
+      "entries": 35,
+      "mismatches": []
+    }
+  },
+  "containers": {
+    "CARPURE.RES": {
+      "bytes": 1010,
+      "sha256": "5dcb87833fbbb93b4e78ff31d6e6b1aaf1a9173676ed5700d8bc60bad17b0eef",
+      "resources": [
+        "edes",
+        "gnam",
+        "gsna",
+        "simd"
+      ]
+    },
+    "STPURE.3SH": {
+      "bytes": 19614,
+      "sha256": "1178b521c7ec600f2ab2a69259aaf7d82e0f3f98f7a35e3f1ad4875210b694b6",
+      "resources": [
+        "car0",
+        "car1",
+        "car2",
+        "exp0",
+        "exp1",
+        "exp2",
+        "exp3"
+      ]
+    },
+    "STDAPURE.VSH": {
+      "bytes": 115471,
+      "sha256": "d983921f0abf4ee248c475f8e68e14d807462e172a910870711d30700b6978e7",
+      "resources": [
+        "!cg0",
+        "!eg0",
+        "dash",
+        "gbox",
+        "inm1",
+        "inm3",
+        "ins1",
+        "ins2",
+        "ins3",
+        "roof",
+        "whl1",
+        "whl2",
+        "whl3",
+        "dast",
+        "dasm"
+      ],
+      "bitmaps": [
+        {
+          "id": "!cg0",
+          "size": [
+            256,
+            1
+          ],
+          "anchor": [
+            6,
+            15578
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "!eg0",
+          "size": [
+            256,
+            1
+          ],
+          "anchor": [
+            6,
+            15578
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dash",
+          "size": [
+            320,
+            100
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "id": "gbox",
+          "size": [
+            1,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            199
+          ]
+        },
+        {
+          "id": "inm1",
+          "size": [
+            8,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            128,
+            132
+          ]
+        },
+        {
+          "id": "inm3",
+          "size": [
+            8,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            128,
+            132
+          ]
+        },
+        {
+          "id": "ins1",
+          "size": [
+            8,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            128,
+            132
+          ]
+        },
+        {
+          "id": "ins2",
+          "size": [
+            64,
+            35
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            128,
+            132
+          ]
+        },
+        {
+          "id": "ins3",
+          "size": [
+            8,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            128,
+            132
+          ]
+        },
+        {
+          "id": "roof",
+          "size": [
+            320,
+            9
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "whl1",
+          "size": [
+            160,
+            40
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            80,
+            124
+          ]
+        },
+        {
+          "id": "whl2",
+          "size": [
+            160,
+            40
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            80,
+            124
+          ]
+        },
+        {
+          "id": "whl3",
+          "size": [
+            160,
+            40
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            80,
+            124
+          ]
+        },
+        {
+          "id": "dast",
+          "size": [
+            320,
+            91
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            9
+          ]
+        },
+        {
+          "id": "dasm",
+          "size": [
+            320,
+            91
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    "STDBPURE.VSH": {
+      "bytes": 2296,
+      "sha256": "1193ff9ff7549e913af212def1ac7ea0305915ab5329a883f18331728d5861a1",
+      "resources": [
+        "!cg0",
+        "!eg0",
+        "dig0",
+        "dig1",
+        "dig2",
+        "dig3",
+        "dig4",
+        "dig5",
+        "dig6",
+        "dig7",
+        "dig8",
+        "dig9",
+        "dot ",
+        "dot1",
+        "dot2",
+        "dota",
+        "gnab",
+        "gnob"
+      ],
+      "bitmaps": [
+        {
+          "id": "!cg0",
+          "size": [
+            256,
+            1
+          ],
+          "anchor": [
+            6,
+            15578
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "!eg0",
+          "size": [
+            256,
+            1
+          ],
+          "anchor": [
+            6,
+            15578
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig0",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig1",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig2",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig3",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig4",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig5",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig6",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig7",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig8",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dig9",
+          "size": [
+            8,
+            12
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "dot ",
+          "size": [
+            24,
+            3
+          ],
+          "anchor": [
+            1,
+            1
+          ],
+          "position": [
+            160,
+            122
+          ]
+        },
+        {
+          "id": "dot1",
+          "size": [
+            40,
+            3
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            160,
+            122
+          ]
+        },
+        {
+          "id": "dot2",
+          "size": [
+            40,
+            3
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            160,
+            122
+          ]
+        },
+        {
+          "id": "dota",
+          "size": [
+            24,
+            3
+          ],
+          "anchor": [
+            1,
+            1
+          ],
+          "position": [
+            160,
+            122
+          ]
+        },
+        {
+          "id": "gnab",
+          "size": [
+            1,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            199
+          ]
+        },
+        {
+          "id": "gnob",
+          "size": [
+            1,
+            1
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            199
+          ]
+        }
+      ]
+    }
+  },
+  "source_files": {
+    "HRT_HOMOLOGATION_PURE.html": {
+      "bytes": 4859,
+      "sha256": "922856b71bed13083367b8761e10797cb38a7c1b9ec087549c5192530a17ab9e"
+    },
+    "LPURE001.RPL": {
+      "bytes": 3506,
+      "sha256": "d8e6c77ec8288f9af4f28fb3a1eac6a3d7496eee2c5c1c64743a472033ebbc59"
+    },
+    "PURE_FINAL_021.zip": {
+      "bytes": 106789,
+      "sha256": "7e7ae564f5b1217fba469339c62662751c3c81cb321a0990c077f827756f8270"
+    },
+    "THE_STUNG_PURE_THE_SHORTCUT_DEPARTMENT.mp4": {
+      "bytes": 15572992,
+      "sha256": "c13bc81fe1ae7c078020478e248619ee3a8a12c5957a1c9add99a5cd2f3be147"
+    }
+  },
+  "zip_crc": "PASS",
+  "zip_entries": 36,
+  "edes": {
+    "lines": [
+      "McMurtry Speirling PURE",
+      "by Alain il Professore",
+      "",
+      "Twin electric motors/RWD",
+      "745kW / 100kWh / 900kg",
+      "190MPH / 0-60MPH:1.55s",
+      "Fans draw air under car",
+      "for downforce at rest.",
+      ""
+    ],
+    "termination": "closing ] followed by NUL",
+    "signature_present": true
+  },
+  "shapes": {
+    "car0": {
+      "vertices": 255,
+      "primitives": 255,
+      "paintjobs": 12
+    },
+    "car1": {
+      "vertices": 231,
+      "primitives": 191,
+      "paintjobs": 12
+    },
+    "car2": {
+      "vertices": 168,
+      "primitives": 140,
+      "paintjobs": 12
+    },
+    "exp0": {
+      "vertices": 9,
+      "primitives": 5,
+      "paintjobs": 12
+    },
+    "exp1": {
+      "vertices": 9,
+      "primitives": 5,
+      "paintjobs": 12
+    },
+    "exp2": {
+      "vertices": 8,
+      "primitives": 5,
+      "paintjobs": 12
+    },
+    "exp3": {
+      "vertices": 9,
+      "primitives": 5,
+      "paintjobs": 12
+    }
+  },
+  "replay": {
+    "code": "PURE",
+    "track_header": "TOPSTNT",
+    "fps_byte_23": 0,
+    "frame_count_word_24": 1678,
+    "engine_playback_test": false
+  },
+  "roof": "Preserved: closed-canopy car; original opaque 320x9 roof at (0,0). No open-cockpit dummy-roof fix applied.",
+  "reconstruction": "Supplied assembly sources reference versioned working folders and blueprint_factory dependencies not included in this ZIP. Source scripts were read, not executed; standalone rebuild not certified.",
+  "measurement_notes": [
+    "Summary 0-100 km/h 1.57 s and detailed protocol 1.60 s both retained; reason not established.",
+    "Summary bench Vmax 305.7 km/h and detailed 305.71 km/h retained.",
+    "190.3 mph circuit maximum is distinct from 189.96 mph simulated Vmax protocol.",
+    "82.90 s is the report autonomous Restunts lap, not an independently timed video.",
+    "Reported power 540 ch and estimated torque 689 Nm are simulation estimates.",
+    "Pack target profile 745 kW / 900 kg is distinct from the report estimated power; neither is represented as a new measured factory specification."
+  ],
+  "publication_date": "2026-11-13",
+  "manifest_checks_repeated": 39,
+  "zip_sha256": "7e7ae564f5b1217fba469339c62662751c3c81cb321a0990c077f827756f8270",
+  "youtube_url": "https://youtu.be/C_zWnwk1k0o",
+  "source_report_unchanged_sha256": "922856b71bed13083367b8761e10797cb38a7c1b9ec087549c5192530a17ab9e",
+  "benchmark_version_caveat": "The source summary gives 0–100 km/h as 1.57 s; detailed protocol 04 gives 1.60 s. Both values are preserved. Bench figures are experimental CAR.RES simulation estimates, not original GAME.EXE measurements or real-world testing. The 82.90 s autonomous Restunts benchmark is distinct from the edited YouTube hotlap. The report was supplied separately and is not established as a rerun against final pack 021.",
+  "video_source_sha256": "c13bc81fe1ae7c078020478e248619ee3a8a12c5957a1c9add99a5cd2f3be147"
+}

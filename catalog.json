@@ -520,6 +520,40 @@
       "reportPath": "homologation/reports/HRT_HOMOLOGATION_F643.html",
       "notes": "V14 updated 11 Nov 2026: complete edes description and author credit; dummy roof resource removed so the original engine refreshes the top scanline. All retained STDA resource blocks, physics, STDB and 3SH are unchanged. Internal checksums and portable rebuild updated. No new full DOSBox playtest.",
       "revision": "V14 edes + open-cockpit fix · 2026-11-11"
+    },
+    {
+      "id": "mcmurtry-speirling-pure",
+      "number": "14",
+      "title": "McMurtry Spéirling PURE",
+      "subtitle": "PURE · Final 021 · Twelve paintjobs",
+      "car": "McMurtry Speirling PURE",
+      "description": "McMurtry Spéirling PURE for Stunts 1.1, with twelve paintjobs, a custom VGA cockpit, four rear lights on each LOD and multilingual documentation. Final pack 021 preserves the supplied physics and cockpit resources and includes backup-aware Windows/DOS installation and restoration scripts.",
+      "archive": "packs/mcmurtry-speirling-pure/PURE_FINAL_021.zip",
+      "cover": "packs/mcmurtry-speirling-pure/cover.png",
+      "bitmap": "packs/mcmurtry-speirling-pure/cover.bmp",
+      "version": "021",
+      "platform": "Stunts 1.1 VGA · Windows / DOSBox",
+      "author": "Alain il Professore · Hyperion Racing Team",
+      "tags": [
+        "PURE",
+        "Electric prototype",
+        "12 paintjobs",
+        "VGA cockpit",
+        "Windows / DOSBox"
+      ],
+      "install": "Close Stunts/DOSBox. Extract the complete PURE021 folder inside the Stunts game directory. On Windows run INSTALL_WIN.CMD; in DOS/DOSBox use INSTALL.BAT from PURE021. Restore with UNINSTALL_WIN.CMD or REMOVE.BAT using the same installation method. Retain PURE021, PURE_BACKUPS and PUREBAK until restoration is complete.",
+      "bytes": 106789,
+      "sha256": "7e7ae564f5b1217fba469339c62662751c3c81cb321a0990c077f827756f8270",
+      "archive_entries": 36,
+      "download_enabled": true,
+      "cover_width": 320,
+      "cover_height": 200,
+      "cover_caption": "PURE · SOURCE-DERIVED VGA RENDER · 320 × 200 · 256 COLORS",
+      "cover_alt": "Mint-green McMurtry Spéirling PURE with black canopy and rear wing, rendered from the final 021 Stunts 3SH model.",
+      "youtubeUrl": "https://youtu.be/C_zWnwk1k0o",
+      "reportPath": "homologation/reports/HRT_HOMOLOGATION_PURE.html",
+      "notes": "The source summary gives 0–100 km/h as 1.57 s; detailed protocol 04 gives 1.60 s. Both values are preserved. Bench figures are experimental CAR.RES simulation estimates, not original GAME.EXE measurements or real-world testing. The 82.90 s autonomous Restunts benchmark is distinct from the edited YouTube hotlap. The report was supplied separately and is not established as a rerun against final pack 021. Distribution CRC and 39 manifest hashes rechecked; no original GAME.EXE playtest or installer execution performed during publication. Closed-canopy roof retained.",
+      "revision": "Final pack 021 · 2026-11-13"
     }
   ],
   "replay_collections": [

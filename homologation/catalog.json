@@ -102,6 +102,27 @@
       "youtubeUrl": "https://youtu.be/r-lxtuEWlEw",
       "thumbnail": "thumbnails/F643_VGA_320x200.png",
       "note": "7 protocols completed; no targets missed. Source report summary gives 0–100 km/h as 2.16 s; detailed 0–100–0 km/h protocol gives 2.20 s. Both retained unchanged. Bench figures are model estimates. 105.55 s is the autonomous Restunts benchmark, not a separately timed YouTube lap."
+    },
+    {
+      "code": "PURE",
+      "name": "McMurtry Speirling PURE",
+      "category": "Extreme prototype",
+      "date": "2026-11-13",
+      "lapSeconds": 82.9,
+      "maxLapMph": 190.3,
+      "averageLapMph": 144.5,
+      "topKph": 305.7,
+      "acceleration100": 1.57,
+      "powerHp": 540,
+      "testsPassed": 7,
+      "testsTotal": 7,
+      "track": "TOPSTNT.TRK",
+      "replay": "LPURE001.RPL",
+      "replayPath": "replays/LPURE001.RPL",
+      "reportPath": "reports/HRT_HOMOLOGATION_PURE.html",
+      "youtubeUrl": "https://youtu.be/C_zWnwk1k0o",
+      "thumbnail": "thumbnails/PURE_VGA_320x200.png",
+      "note": "The source summary gives 0–100 km/h as 1.57 s; detailed protocol 04 gives 1.60 s. Both values are preserved. Bench figures are experimental CAR.RES simulation estimates, not original GAME.EXE measurements or real-world testing. The 82.90 s autonomous Restunts benchmark is distinct from the edited YouTube hotlap. The report was supplied separately and is not established as a rerun against final pack 021."
     }
   ]
 }
