@@ -1,0 +1,39 @@
+{
+  "vehicle_code": "PURE",
+  "source_3sh": "STPURE.3SH",
+  "source_sha256": "1178b521c7ec600f2ab2a69259aaf7d82e0f3f98f7a35e3f1ad4875210b694b6",
+  "shape": "car0",
+  "paintjob_index": 0,
+  "paintjob_count": 12,
+  "vertex_count": 255,
+  "primitive_count": 255,
+  "camera": {
+    "yaw_degrees": 40,
+    "elevation_degrees": 20,
+    "projection": "orthographic"
+  },
+  "blueprint_projections": [
+    "front: X-Y",
+    "side: Z-Y"
+  ],
+  "palette_authentic": false,
+  "palette_notice": "Approximate material colours; official Stunts VGA material mapping not verified.",
+  "real_image_present": false,
+  "real_generation_provenance_verified": false,
+  "photo_note": "No image-generation backend invoked; empty composite photo panel is explicitly marked",
+  "category": "extreme prototype",
+  "homologation_results_modified": false,
+  "dashboard_source_sha256": "d983921f0abf4ee248c475f8e68e14d807462e172a910870711d30700b6978e7",
+  "dashboard_note": "Static reconstruction from native STDA sprites and masks; not a live game screenshot.",
+  "catalogue_cover": {
+    "size": [
+      320,
+      200
+    ],
+    "mode": "P",
+    "bits": 8,
+    "colours_max": 256,
+    "geometry_source": "STPURE.3SH from PURE_FINAL_021.zip",
+    "sha256": "baa48de0e77629c61386c5fe60f7fb00c3980f9646c7a01e02a3aa3b8cd5c2e9"
+  }
+}
